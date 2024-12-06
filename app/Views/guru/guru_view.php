@@ -42,7 +42,7 @@
 
                         <li
                             class="sidebar-item">
-                            <a href="#" class='sidebar-link'>
+                            <a href="<?= base_url('dashboard'); ?>" class='sidebar-link'>
                                 <i class="bi bi-grid-fill"></i>
                                 <span>Dashboard</span>
                             </a>
@@ -158,7 +158,7 @@
                         <div class="col-12 col-md-6 order-md-2 order-first">
                             <nav aria-label="breadcrumb" class="breadcrumb-header float-start float-lg-end">
                                 <ol class="breadcrumb">
-                                    <li class="breadcrumb-item"><a href="index.html">Dashboard</a></li>
+                                    <li class="breadcrumb-item"><a href="<?= base_url('/guru'); ?>">Dashboard</a></li>
                                     <li class="breadcrumb-item active" aria-current="page">Data Pengajar</li>
                                 </ol>
                             </nav>

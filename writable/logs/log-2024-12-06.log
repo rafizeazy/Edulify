@@ -116,3 +116,48 @@ in SYSTEMPATH\Database\MySQLi\Connection.php on line 312.
 11 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
 12 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
 13 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\platform-belajar\\public\\index.php')
+CRITICAL - 2024-12-06 17:39:08 --> ErrorException: Undefined variable $getGuru
+[Method: GET, Route: guru/tambah]
+in APPPATH\Views\guru\tambah_guru_view.php on line 189.
+ 1 APPPATH\Views\guru\tambah_guru_view.php(189): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $getGuru', 'C:\\xampp\\htdocs\\platform-belajar\\app\\Views\\guru\\tambah_guru_view.php', 189)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\platform-belajar\\app\\Views\\guru\\tambah_guru_view.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('guru/tambah_guru_view', [], true)
+ 5 APPPATH\Controllers\GuruController.php(23): view('guru/tambah_guru_view', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\GuruController->tambah()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\GuruController))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\platform-belajar\\public\\index.php')
+INFO - 2024-12-06 17:40:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-06 17:40:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-06 17:40:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-06 17:40:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-06 17:40:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-06 17:49:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-06 17:52:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-06 17:52:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-06 17:53:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-06 17:53:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-06 18:50:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-06 18:51:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-06 19:08:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-12-06 19:08:20 --> ErrorException: Undefined variable $getGuru
+[Method: GET, Route: materi]
+in APPPATH\Views\materi\materi_view.php on line 189.
+ 1 APPPATH\Views\materi\materi_view.php(189): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $getGuru', 'C:\\xampp\\htdocs\\platform-belajar\\app\\Views\\materi\\materi_view.php', 189)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\platform-belajar\\app\\Views\\materi\\materi_view.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('materi/materi_view', [], true)
+ 5 APPPATH\Controllers\MateriController.php(15): view('materi/materi_view', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\MateriController->index()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MateriController))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\platform-belajar\\public\\index.php')
+INFO - 2024-12-06 19:09:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-06 19:10:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.

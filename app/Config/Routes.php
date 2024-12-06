@@ -21,7 +21,7 @@ $routes->group('login', function ($routes) {
 $routes->get('dashboard', 'Dashboard::index');
 $routes->get('user/home_user', 'UserController::home');
 
-    
+
 
 $routes->group('logout', function ($routes) {
     $routes->get('/', 'LogoutController::index');
@@ -39,3 +39,11 @@ $routes->get('guru/edit/(:any)', 'GuruController::edit/$1');
 $routes->post('guru/add', 'GuruController::add');
 $routes->post('guru/update', 'GuruController::update');
 $routes->get('guru/hapus/(:any)', 'GuruController::hapus/$1');
+
+// routes materi
+$routes->get('materi', 'MateriController::index');
+$routes->get('materi/tambah', 'MateriController::tambah');
+$routes->get('materi/edit/(:any)', 'MateriController::edit/$1');
+$routes->post('materi/add', 'MateriController::add');
+$routes->post('materi/update', 'MateriController::update');
+$routes->get('materi/hapus/(:any)', 'MateriController::hapus/$1');
