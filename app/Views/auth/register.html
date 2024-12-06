@@ -1,0 +1,112 @@
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta content="width=device-width, initial-scale=1.0" name="viewport" />
+    <title>Pendaftaran Learnify</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
+      rel="stylesheet"
+    />
+  </head>
+  <body class="bg-gray-100 flex items-center justify-center min-h-screen">
+    <div class="bg-white rounded-lg shadow-lg p-8 max-w-4xl w-full">
+      <div class="text-center mb-8">
+        <h1 class="text-3xl font-bold">Pendaftaran Learnify</h1>
+        <p class="text-gray-500">
+          Silahkan isi data data yang diperlukan dibawah
+        </p>
+      </div>
+      <div class="flex flex-col md:flex-row items-center">
+        <div class="w-full md:w-1/2 mb-8 md:mb-0">
+          <img
+            alt="Illustration of happy people celebrating"
+            class="w-full"
+            height="300"
+            src="https://storage.googleapis.com/a1aa/image/zQ6TOYqRPSIgOlJagLncArNpX6NYumgNmQENqAEyVD4qyj9E.jpg"
+            width="400"
+          />
+        </div>
+        <div class="w-full md:w-1/2 md:pl-8">
+          <form>
+            <div class="mb-4">
+              <label class="block text-gray-700 font-bold mb-2" for="nama">
+                Nama lengkap
+              </label>
+              <input
+                name="nama"
+                class="shadow appearance-none border rounded w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline"
+                id="nama"
+                placeholder="Nama lengkap"
+                type="text"
+              />
+            </div>
+            <div class="mb-4">
+              <label class="block text-gray-700 font-bold mb-2" for="email">
+                Email
+              </label>
+              <input
+                class="shadow appearance-none border rounded w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline"
+                id="email"
+                placeholder="Email"
+                type="email"
+              />
+            </div>
+            <div class="mb-4 flex flex-col md:flex-row md:space-x-4">
+              <div class="w-full md:w-1/2">
+                <label
+                  class="block text-gray-700 font-bold mb-2"
+                  for="password"
+                >
+                  Password
+                </label>
+                <input
+                  class="shadow appearance-none border rounded w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline"
+                  id="password"
+                  placeholder="Password"
+                  type="password"
+                />
+              </div>
+              <div class="w-full md:w-1/2 mt-4 md:mt-0">
+                <label
+                  class="block text-gray-700 font-bold mb-2"
+                  for="retype-password"
+                >
+                  Retype password
+                </label>
+                <input
+                  class="shadow appearance-none border rounded w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline"
+                  id="retype-password"
+                  placeholder="Retype password"
+                  type="password"
+                />
+              </div>
+            </div>
+            <div class="mb-4">
+              <label class="inline-flex items-center">
+                <input class="form-checkbox text-green-500" type="checkbox" />
+                <span class="ml-2 text-gray-700">
+                  Saya setuju dan ingin melanjutkan.
+                </span>
+              </label>
+              <p class="text-gray-500 text-xs mt-2">
+                Dengan daftar anda menyetujui privasi dan persyaratan ketentuan
+                hukum kami. baca selengkapnya
+                <a class="text-blue-500" href="#"> disini </a>
+                .
+              </p>
+            </div>
+            <div class="text-center">
+              <button
+                class="bg-green-500 text-white font-bold py-2 px-4 rounded-full hover:bg-green-600 focus:outline-none focus:shadow-outline"
+                type="submit"
+              >
+                Daftar Sekarang!
+              </button>
+            </div>
+          </form>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
