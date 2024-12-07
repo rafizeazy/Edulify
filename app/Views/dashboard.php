@@ -79,12 +79,12 @@
                             <ul class="submenu ">
 
                                 <li class="submenu-item  ">
-                                    <a href="<?= base_url('guru'); ?>" class="submenu-link">Data Pengajar</a>
+                                    <a href="<?= base_url('guru'); ?>" class="submenu-link">Data Guru</a>
 
                                 </li>
 
                                 <li class="submenu-item  ">
-                                    <a href="<?= base_url('guru/tambah'); ?>" class="submenu-link">Tambah Data Pengajar</a>
+                                    <a href="<?= base_url('guru/tambah'); ?>" class="submenu-link">Tambah Data Guru</a>
 
                                 </li>
 
@@ -154,11 +154,13 @@
             </div>
 
 
-            <footer>
-                <div class="footer clearfix mb-0 text-muted">
-                    <div class="float-start">
-                        <p>2024 &copy; KlikBelajar</p>
-                    </div>
+            <footer class="main-footer d-flex justify-content-between align-items-center">
+                <div class="footer-left d-flex align-items-center">
+                    Copyright &copy; 2024 | Edulify <div class="bullet"></div>
+                </div>
+                <div class="footer-right">
+                    Made with <span class="text-danger"> &#10084;</span> by <a
+                        href="https://github.com/rafizeazy">Ravy</a>
                 </div>
             </footer>
         </div>

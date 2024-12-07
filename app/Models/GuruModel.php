@@ -7,6 +7,13 @@ use CodeIgniter\Model;
 class GuruModel extends Model
 {
     protected $table = 'guru';
+    protected $primaryKey = 'nip';
+    protected $allowedFields = [
+        'nip',
+        'nama_lengkap',
+        'email',
+        'mapel'
+    ];
 
     public function getGuru($nip = false)
     {

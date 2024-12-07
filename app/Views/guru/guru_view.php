@@ -104,12 +104,12 @@
                             <ul class="submenu ">
 
                                 <li class="submenu-item  ">
-                                    <a href="layout-default.html" class="submenu-link">Data Materi</a>
+                                    <a href="<?= base_url('materi'); ?>" class="submenu-link">Data Materi</a>
 
                                 </li>
 
                                 <li class="submenu-item  ">
-                                    <a href="layout-vertical-1-column.html" class="submenu-link">Tambah Materi</a>
+                                    <a href="<?= base_url('materi/tambah'); ?>" class="submenu-link">Tambah Materi</a>
 
                                 </li>
                             </ul>

@@ -44,6 +44,7 @@ $routes->get('guru/hapus/(:any)', 'GuruController::hapus/$1');
 $routes->get('materi', 'MateriController::index');
 $routes->get('materi/tambah', 'MateriController::tambah');
 $routes->get('materi/edit/(:any)', 'MateriController::edit/$1');
+$routes->post('materi/save', 'MateriController::save');
 $routes->post('materi/add', 'MateriController::add');
 $routes->post('materi/update', 'MateriController::update');
 $routes->get('materi/hapus/(:any)', 'MateriController::hapus/$1');

@@ -5,7 +5,7 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="icon" href="/assets/img/favicon.png" type="image/png">
-    <title>Learnify - Belajar Dimana Saja & Kapan Saja !</title>
+    <title>Edulify - Belajar Dimana Saja & Kapan Saja !</title>
     <script src="https://cdn.tailwindcss.com"></script>
     <!-- Bootstrap CSS -->
     <link
@@ -55,35 +55,35 @@
             overflow: hidden;
             transition: max-height 0.4s ease, opacity 0.4s ease;
             margin-left: 2.5rem;
-            /* Offset left to position away from the edge */
+
             text-align: left;
-            /* Align text to the left */
+
         }
 
         .fitur-layanan-item {
             max-width: 500px;
-            /* Atur lebar maksimal */
+
             margin: 0 auto;
-            /* Pusatkan elemen di tengah */
+
         }
 
         .fitur-layanan-content.open {
             max-height: 200px;
-            /* Adjust based on your content */
+
             opacity: 1;
         }
 
         .accordion {
             .accordion-item {
                 margin-bottom: 10px;
-                /* Tambah jarak antar item */
+
                 border-radius: 8px;
                 overflow: hidden;
                 box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
 
                 button[aria-expanded="true"] {
                     box-shadow: 0 2px 10px rgba(0, 0, 0, 0.2);
-                    /* Tambah shadow saat terbuka */
+
                 }
             }
 
@@ -104,7 +104,7 @@
                 &:focus {
                     cursor: pointer;
                     background-color: #f0f0f0;
-                    /* Warna latar saat hover */
+
                     color: #000;
                 }
 
@@ -139,14 +139,14 @@
                         height: 10px;
                         background: currentColor;
                         transition: height 0.3s ease;
-                        /* Animasi saat konten terbuka */
+
                     }
                 }
             }
 
             button[aria-expanded="true"] .icon {
                 transform: rotate(45deg);
-                /* Rotasi ikon saat terbuka */
+
             }
 
             .accordion-content {
@@ -155,7 +155,7 @@
                 overflow: hidden;
                 transition: opacity 0.3s ease, max-height 0.3s ease;
                 background-color: #fafafa;
-                /* Latar konten */
+
                 padding: 0 1em;
 
                 p {
@@ -168,20 +168,20 @@
             button[aria-expanded="true"]+.accordion-content {
                 opacity: 1;
                 max-height: 10em;
-                /* Sesuaikan tinggi maksimal konten */
+
             }
         }
 
         .home-banner {
             background-image: url("<?= base_url("assets/img/banner/home-banner.jpg") ?>");
             background-size: 1750px;
-            /* Gambar memenuhi area */
+
             background-position: center;
-            /* Pusatkan gambar */
+
             background-repeat: no-repeat;
-            /* Jangan ulangi gambar */
+
             height: 500px;
-            /* Tinggi banner */
+
             display: flex;
             align-items: center;
             justify-content: center;
@@ -195,7 +195,7 @@
             left: 0;
             right: 0;
             bottom: 0;
-            /* background: rgba(0, 0, 0, 0); */
+
 
         }
 
@@ -240,21 +240,21 @@
                     <div>
                         <a href="#" class="flex items-center py-5 px-2 text-gray-700 hover:text-gray-900">
                             <i class="fas fa-book-reader text-2xl"></i>
-                            <span class="font-bold text-xl ml-2">Learnify</span>
+                            <span class="font-bold text-xl ml-2">Edulify</span>
                         </a>
                     </div>
-                    <!-- Primary Navbar items -->
+
                     <div class="hidden md:flex items-center space-x-1">
                         <a href="#" class="py-5 px-3 text-gray-700 hover:text-gray-900">Home</a>
                         <a href="#" class="py-5 px-3 text-gray-700 hover:text-gray-900">About</a>
                         <a href="#" class="py-5 px-3 text-gray-700 hover:text-gray-900">Contact</a>
                     </div>
                 </div>
-                <!-- Secondary Navbar items -->
+
                 <div class="hidden md:flex items-center space-x-1">
                     <button id="loginBtn" class="py-2 px-3 bg-green-500 text-white rounded hover:bg-green-600">Login</button>
                 </div>
-                <!-- Mobile menu button -->
+
                 <div class="md:hidden flex items-center">
                     <button id="mobileMenuButton" class="mobile-menu-button">
                         <i class="fas fa-bars text-2xl"></i>
@@ -262,7 +262,7 @@
                 </div>
             </div>
         </div>
-        <!-- Mobile Menu -->
+
         <div class="mobile-menu hidden md:hidden">
             <a href="#" class="block py-2 px-4 text-sm hover:bg-gray-200">Home</a>
             <a href="#" class="block py-2 px-4 text-sm hover:bg-gray-200">About</a>
@@ -277,9 +277,9 @@
             <div class="banner-content text-center text-white">
                 <h3 class="text-4xl md:text-5xl font-bold mb-4">
                     Belajar Dimana Saja & Kapan Saja <br />
-                    Mudah Dengan KlikBelajar
+                    Mudah Dengan Edulify
                 </h3>
-                <p class="mt-4 mb-8 text-lg md:text-xl text-center max-w-3xl mx-auto">Dengan Learnify kemudahan kegiatan belajar mengajar dapat terpenuhi. Para guru dan siswa dapat belajar meski banyak halangan atau rintangan. Pembelajaran Terstruktur dan Efektif hanya di Learnify! Nikmati kemudahan belajar dan materi terlengkap dari kami!</p>
+                <p class="mt-4 mb-8 text-lg md:text-xl text-center max-w-3xl mx-auto">Dengan Edulify kemudahan kegiatan belajar mengajar dapat terpenuhi. Para guru dan siswa dapat belajar meski banyak halangan atau rintangan. Pembelajaran Terstruktur dan Efektif hanya di Learnify! Nikmati kemudahan belajar dan materi terlengkap dari kami!</p>
                 <a href="<?php echo base_url('register'); ?>" class="mt-6 bg-green-500 text-white font-bold py-2 px-4 rounded hover:bg-transparent hover:border hover:border-green-500 hover:text-green-500 transition duration-300">Daftar Sekarang</a>
             </div>
         </div>
@@ -292,7 +292,7 @@
     <div id="loginModal" class="modal">
         <div class="modal-content rounded-lg shadow-lg p-8">
             <div class="flex justify-between items-center mb-4">
-                <h1 class="text-2xl font-bold">Learnify - Masuk Sekarang</h1>
+                <h1 class="text-2xl font-bold">Edulify - Masuk Sekarang</h1>
                 <button id="closeModal" class="text-gray-500 hover:text-gray-700">
                     <i class="fas fa-times"></i>
                 </button>
@@ -354,7 +354,7 @@
                     <i class="fas fa-chalkboard-teacher text-blue-500 text-3xl mb-4">
                     </i>
                     <h2 class="text-2xl font-bold">1.952</h2>
-                    <p class="text-gray-600">Pengajar di KlikBelajar</p>
+                    <p class="text-gray-600">Guru Di Edulify</p>
                 </div>
             </div>
             <div class="w-full md:w-1/4 p-4">
@@ -930,7 +930,7 @@
         <div class="container mx-auto px-4">
             <div class="flex flex-wrap justify-between">
                 <div class="w-full md:w-1/3 mb-6 md:mb-0">
-                    <h3 class="text-2xl font-bold mb-4">KlikBelajar</h3>
+                    <h3 class="text-2xl font-bold mb-4">Edulify</h3>
                     <p>
                         Kami menyediakan layanan bimbingan belajar private terbaik dan
                         terpercaya.
@@ -972,7 +972,7 @@
                         Email:
                         <a
                             class="text-blue-400 hover:underline"
-                            href="mailto:info@klikbelajar.com">info@klikbelajar.com</a>
+                            href="mailto:info@klikbelajar.com">info@edulify.com</a>
                     </p>
                     <p>
                         Telepon:
