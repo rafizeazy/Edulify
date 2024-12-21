@@ -252,7 +252,7 @@
                 </div>
 
                 <div class="hidden md:flex items-center space-x-1">
-                    <button id="loginBtn" class="py-2 px-3 bg-green-500 text-white rounded hover:bg-green-600">Login</button>
+                    <button id="loginBtn" class="py-2 px-3 bg-blue-500 text-white rounded hover:bg-blue-600">Login</button>
                 </div>
 
                 <div class="md:hidden flex items-center">
@@ -267,7 +267,7 @@
             <a href="#" class="block py-2 px-4 text-sm hover:bg-gray-200">Home</a>
             <a href="#" class="block py-2 px-4 text-sm hover:bg-gray-200">About</a>
             <a href="#" class="block py-2 px-4 text-sm hover:bg-gray-200">Contact</a>
-            <button id="mobileLoginBtn" class="block w-full text-left py-2 px-4 text-sm bg-green-500 text-white hover:bg-green-600">Login</button>
+            <button id="mobileLoginBtn" class="block w-full text-left py-2 px-4 text-sm bg-blue-500 text-white hover:bg-blue-600">Login</button>
         </div>
     </nav>
 
@@ -280,7 +280,7 @@
                     Mudah Dengan Edulify
                 </h3>
                 <p class="mt-4 mb-8 text-lg md:text-xl text-center max-w-3xl mx-auto">Dengan Edulify kemudahan kegiatan belajar mengajar dapat terpenuhi. Para guru dan siswa dapat belajar meski banyak halangan atau rintangan. Pembelajaran Terstruktur dan Efektif hanya di Learnify! Nikmati kemudahan belajar dan materi terlengkap dari kami!</p>
-                <a href="<?php echo base_url('register'); ?>" class="mt-6 bg-green-500 text-white font-bold py-2 px-4 rounded hover:bg-transparent hover:border hover:border-green-500 hover:text-green-500 transition duration-300">Daftar Sekarang</a>
+                <a href="<?php echo base_url('register'); ?>" class="mt-6 bg-blue-500 text-white font-bold py-2 px-4 rounded hover:bg-transparent hover:border hover:border-blue-500 hover:text-blue-500 transition duration-300">Daftar Sekarang</a>
             </div>
         </div>
     </section>
@@ -331,7 +331,7 @@
                             <a class="text-blue-500" href="#">privasi dan persyaratan ketentuan hukum kami</a>. belum punya akun? daftar
                             <a class="text-blue-500" href="#">disini</a>.
                         </p>
-                        <button class="w-full bg-green-500 text-white font-bold py-2 rounded-lg hover:bg-green-600" type="submit">Login Sekarang!</button>
+                        <button class="w-full bg-blue-500 text-white font-bold py-2 rounded-lg hover:bg-blue-600" type="submit">Login Sekarang!</button>
                     </form>
                 </div>
             </div>
@@ -377,7 +377,7 @@
     <section class="bg-blue-500 py-20" id="program-unggulan">
         <div class="container mx-auto py-12">
             <h1 class="text-4xl font-bold text-center text-white mb-8">
-                Program Unggulan
+                Pelajaran Yang Tersedia
             </h1>
             <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
                 <!-- Card 1 -->
@@ -389,8 +389,8 @@
                         src="https://storage.googleapis.com/a1aa/image/v76EDehyKfmOGEwJPf0AGfVmTEhFwxjOqbttpct1a7Q5eDSdC.jpg" />
                     <div class="p-6 flex flex-col flex-grow justify-between">
                         <div>
-                            <p class="text-gray-600 mb-2">1.000+ peserta telah mendaftar</p>
-                            <h2 class="text-xl font-bold mb-2">Les Privat Calistung</h2>
+                            <p class="text-gray-600 mb-2">Gratis</p>
+                            <h2 class="text-xl font-bold mb-2">Matematika</h2>
                             <p class="text-gray-700 mb-4">
                                 Lorem ipsum dolor sit amet consectetur, adipisicing elit.
                                 Assumenda, obcaecati! Fugiat natus perferendis corporis
@@ -400,7 +400,7 @@
                             </p>
                         </div>
                         <a
-                            href="https://wa.link/jj4wjt"
+                            href="<?php echo base_url('register'); ?>"
                             class="mt-4 bg-blue-500 text-white py-2 px-4 rounded-lg text-center transition hover:bg-blue-600">
                             Daftar Sekarang
                         </a>
@@ -416,8 +416,8 @@
                         src="https://storage.googleapis.com/a1aa/image/hxStMauRPIqfAyoDMffO237U4qVw7xGgFjBRcgsmOOnafBpOB.jpg" />
                     <div class="p-6 flex flex-col flex-grow justify-between">
                         <div>
-                            <p class="text-gray-600 mb-2">1.000+ peserta telah mendaftar</p>
-                            <h2 class="text-xl font-bold mb-2">Les Privat SD</h2>
+                            <p class="text-gray-600 mb-2">Gratis</p>
+                            <h2 class="text-xl font-bold mb-2">Pendidikan Agama Islam</h2>
                             <p class="text-gray-700 mb-4">
                                 Lorem ipsum, dolor sit amet consectetur adipisicing elit.
                                 Possimus atque reiciendis minima aut! Eveniet aperiam dicta
@@ -426,7 +426,7 @@
                             </p>
                         </div>
                         <a
-                            href="https://wa.link/jj4wjt"
+                            href="<?php echo base_url('register'); ?>"
                             class="mt-4 bg-blue-500 text-white py-2 px-4 rounded-lg text-center transition hover:bg-blue-600">
                             Daftar Sekarang
                         </a>
@@ -442,8 +442,8 @@
                         src="https://storage.googleapis.com/a1aa/image/LO2h2USiww5NGBaY85C6dQ2esFpA34MAOVXscJEO34S4PI1JA.jpg" />
                     <div class="p-6 flex flex-col flex-grow justify-between">
                         <div>
-                            <p class="text-gray-600 mb-2">1.000+ peserta telah mendaftar</p>
-                            <h2 class="text-xl font-bold mb-2">Les Privat SMP</h2>
+                            <p class="text-gray-600 mb-2">Gratis</p>
+                            <h2 class="text-xl font-bold mb-2">Bahasa Inggris</h2>
                             <p class="text-gray-700 mb-4">
                                 Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quia
                                 similique consectetur inventore voluptatum quibusdam. Ab
@@ -452,7 +452,7 @@
                             </p>
                         </div>
                         <a
-                            href="https://wa.link/jj4wjt"
+                            href="<?php echo base_url('register'); ?>"
                             class="mt-4 bg-blue-500 text-white py-2 px-4 rounded-lg text-center transition hover:bg-blue-600">
                             Daftar Sekarang
                         </a>
@@ -467,8 +467,8 @@
                         src="https://storage.googleapis.com/a1aa/image/g9si0SqNf3VzbihRMf5GY9KhmJryyhGtyVLOQbfWCXNMihUnA.jpg" />
                     <div class="p-6 flex flex-col flex-grow justify-between">
                         <div>
-                            <p class="text-gray-600 mb-2">1.000+ peserta telah mendaftar</p>
-                            <h2 class="text-xl font-bold mb-2">Les Privat SMA/SMK</h2>
+                            <p class="text-gray-600 mb-2">Gratis</p>
+                            <h2 class="text-xl font-bold mb-2">Bahasa Indonesia</h2>
                             <p class="text-gray-700 mb-4">
                                 Lorem ipsum dolor sit amet, consectetur adipisicing elit.
                                 Voluptatem repellat architecto pariatur quia minus facilis,
@@ -477,7 +477,7 @@
                             </p>
                         </div>
                         <a
-                            href="https://wa.link/jj4wjt"
+                            href="<?php echo base_url('register'); ?>"
                             class="mt-4 bg-blue-500 text-white py-2 px-4 rounded-lg text-center transition hover:bg-blue-600">
                             Daftar Sekarang
                         </a>
@@ -492,8 +492,8 @@
                         src="https://storage.googleapis.com/a1aa/image/A7WoUvN48qJ8CRT1FfasIbkHOKbceWsLWL7NfIpRqwmJihUnA.jpg" />
                     <div class="p-6 flex flex-col flex-grow justify-between">
                         <div>
-                            <p class="text-gray-600 mb-2">1.000+ peserta telah mendaftar</p>
-                            <h2 class="text-xl font-bold mb-2">Les Privat SNBT</h2>
+                            <p class="text-gray-600 mb-2">Gratis</p>
+                            <h2 class="text-xl font-bold mb-2">Algoritma</h2>
                             <p class="text-gray-700 mb-4">
                                 Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa
                                 repudiandae, voluptas nisi quo totam eveniet fugiat eius a
@@ -502,7 +502,7 @@
                             </p>
                         </div>
                         <a
-                            href="https://wa.link/jj4wjt"
+                            href="<?php echo base_url('register'); ?>"
                             class="mt-4 bg-blue-500 text-white py-2 px-4 rounded-lg text-center transition hover:bg-blue-600">
                             Daftar Sekarang
                         </a>
@@ -517,8 +517,8 @@
                         src="https://storage.googleapis.com/a1aa/image/tgapunubExpPINeqHZNKKRfAQYo8KiQZKLYdQJ1oXU2CxQqTA.jpg" />
                     <div class="p-6 flex flex-col flex-grow justify-between">
                         <div>
-                            <p class="text-gray-600 mb-2">1.000+ peserta telah mendaftar</p>
-                            <h2 class="text-xl font-bold mb-2">Les Privat Mengaji</h2>
+                            <p class="text-gray-600 mb-2">Gratis</p>
+                            <h2 class="text-xl font-bold mb-2">Desain Grafis</h2>
                             <p class="text-gray-700 mb-4">
                                 Lorem ipsum dolor sit amet consectetur adipisicing elit. Qui
                                 expedita rem fugit beatae reiciendis! Veritatis expedita
@@ -527,7 +527,7 @@
                             </p>
                         </div>
                         <a
-                            href="https://wa.link/jj4wjt"
+                            href="<?php echo base_url('register'); ?>"
                             class="mt-4 bg-blue-500 text-white py-2 px-4 rounded-lg text-center transition hover:bg-blue-600">
                             Daftar Sekarang
                         </a>
@@ -733,7 +733,7 @@
                         <div
                             class="absolute bottom-0 left-0 right-0 bg-gradient-to-t from-blue-900 to-transparent p-4">
                             <h3 class="text-white text-xl font-semibold">Dea</h3>
-                            <p class="text-green-300">Pelajar</p>
+                            <p class="text-blue-300">Pelajar</p>
                             <p class="text-white mt-2">
                                 Lorem ipsum dolor sit amet, consectetur adipisicing elit.
                                 Tempora ad sequi aperiam?
@@ -758,7 +758,7 @@
                             width="50" />
                         <div class="ml-4">
                             <h3 class="text-gray-900 font-semibold">Dadan</h3>
-                            <p class="text-green-300">Pelajar</p>
+                            <p class="text-blue-300">Pelajar</p>
                         </div>
                     </div>
                 </div>
@@ -774,7 +774,7 @@
                         <div
                             class="absolute bottom-0 left-0 right-0 bg-gradient-to-t from-blue-900 to-transparent p-4">
                             <h3 class="text-white text-xl font-semibold">Ibu Nina</h3>
-                            <p class="text-green-300">Orang tua Siswa</p>
+                            <p class="text-blue-300">Orang tua Siswa</p>
                             <p class="text-white mt-2">
                                 Lorem ipsum dolor sit, amet consectetur adipisicing elit.
                                 Facilis aut qui hic accusamus
@@ -800,7 +800,7 @@
                             width="50" />
                         <div class="ml-4">
                             <h3 class="text-gray-900 font-semibold">Ibu Maria</h3>
-                            <p class="text-green-300">Orang tua Siswa</p>
+                            <p class="text-blue-300">Orang tua Siswa</p>
                         </div>
                     </div>
                 </div>
@@ -816,7 +816,7 @@
                         <div
                             class="absolute bottom-0 left-0 right-0 bg-gradient-to-t from-blue-900 to-transparent p-4">
                             <h3 class="text-white text-xl font-semibold">Pak Wahyudi</h3>
-                            <p class="text-green-300">Orang tua Siswa</p>
+                            <p class="text-blue-300">Orang tua Siswa</p>
                             <p class="text-white mt-2">
                                 Lorem ipsum dolor sit amet consectetur adipisicing elit.
                                 Aliquid nihil exercitationem deleniti ipsam? Quaerat atque
@@ -842,7 +842,7 @@
                             width="50" />
                         <div class="ml-4">
                             <h3 class="text-gray-900 font-semibold">Mila</h3>
-                            <p class="text-green-300">Pelajar</p>
+                            <p class="text-blue-300">Pelajar</p>
                         </div>
                     </div>
                 </div>
@@ -932,8 +932,7 @@
                 <div class="w-full md:w-1/3 mb-6 md:mb-0">
                     <h3 class="text-2xl font-bold mb-4">Edulify</h3>
                     <p>
-                        Kami menyediakan layanan bimbingan belajar private terbaik dan
-                        terpercaya.
+                        Edulify adalah website pembelajaran
                     </p>
                 </div>
                 <div class="w-full md:w-1/3 mb-6 md:mb-0">

@@ -1,0 +1,1262 @@
+INFO - 2024-12-21 05:39:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-21 05:40:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-21 05:42:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-21 05:42:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-21 05:42:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-21 05:44:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-21 05:45:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-21 05:45:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-21 05:45:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-21 05:49:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-21 05:50:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-21 05:51:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-21 05:51:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-21 05:52:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-21 05:52:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-21 06:00:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-21 06:00:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-21 06:00:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-21 06:00:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-21 06:00:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-21 06:00:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-21 06:00:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-21 06:07:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-12-21 06:07:40 --> CodeIgniter\HTTP\Exceptions\BadRequestException: The URI you submitted has disallowed characters: "tailwindcss@3.3.5.js"
+[Method: GET, Route: static/js/tailwindcss@3.3.5.js]
+in SYSTEMPATH\Router\Router.php on line 737.
+ 1 SYSTEMPATH\Router\Router.php(204): CodeIgniter\Router\Router->checkDisallowedChars('static/js/tailwindcss@3.3.5.js')
+ 2 SYSTEMPATH\CodeIgniter.php(834): CodeIgniter\Router\Router->handle('static/js/tailwindcss@3.3.5.js')
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 8 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\platform-belajar\\public\\index.php')
+CRITICAL - 2024-12-21 06:07:40 --> CodeIgniter\HTTP\Exceptions\BadRequestException: The URI you submitted has disallowed characters: "fontawesom@6.5.1.js"
+[Method: GET, Route: static/js/fontawesom@6.5.1.js]
+in SYSTEMPATH\Router\Router.php on line 737.
+ 1 SYSTEMPATH\Router\Router.php(204): CodeIgniter\Router\Router->checkDisallowedChars('static/js/fontawesom@6.5.1.js')
+ 2 SYSTEMPATH\CodeIgniter.php(834): CodeIgniter\Router\Router->handle('static/js/fontawesom@6.5.1.js')
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 8 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\platform-belajar\\public\\index.php')
+INFO - 2024-12-21 06:07:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-21 06:08:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-21 06:08:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-21 06:11:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-21 06:17:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2024-12-21 06:17:31 --> mysqli_sql_exception: Table 'klikbelajar.siswa' doesn't exist in C:\xampp\htdocs\platform-belajar\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php:312
+Stack trace:
+#0 C:\xampp\htdocs\platform-belajar\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(312): mysqli->query('SELECT *\nFROM `...', 0)
+#1 C:\xampp\htdocs\platform-belajar\vendor\codeigniter4\framework\system\Database\BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\xampp\htdocs\platform-belajar\vendor\codeigniter4\framework\system\Database\BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\xampp\htdocs\platform-belajar\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1644): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\platform-belajar\vendor\codeigniter4\framework\system\Model.php(286): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\platform-belajar\vendor\codeigniter4\framework\system\BaseModel.php(676): CodeIgniter\Model->doFindAll(0, 0)
+#6 C:\xampp\htdocs\platform-belajar\app\Models\SiswaModel.php(20): CodeIgniter\BaseModel->findAll()
+#7 C:\xampp\htdocs\platform-belajar\app\Controllers\SiswaController.php(13): App\Models\SiswaModel->getSiswa()
+#8 C:\xampp\htdocs\platform-belajar\vendor\codeigniter4\framework\system\CodeIgniter.php(933): App\Controllers\SiswaController->index()
+#9 C:\xampp\htdocs\platform-belajar\vendor\codeigniter4\framework\system\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\SiswaController))
+#10 C:\xampp\htdocs\platform-belajar\vendor\codeigniter4\framework\system\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp\htdocs\platform-belajar\vendor\codeigniter4\framework\system\Boot.php(325): CodeIgniter\CodeIgniter->run()
+#12 C:\xampp\htdocs\platform-belajar\vendor\codeigniter4\framework\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#13 C:\xampp\htdocs\platform-belajar\public\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#14 C:\xampp\htdocs\platform-belajar\vendor\codeigniter4\framework\system\rewrite.php(44): require_once('C:\\xampp\\htdocs...')
+#15 {main}
+CRITICAL - 2024-12-21 06:17:31 --> CodeIgniter\Database\Exceptions\DatabaseException: Table 'klikbelajar.siswa' doesn't exist
+[Method: GET, Route: siswa]
+in SYSTEMPATH\Database\BaseConnection.php on line 688.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1644): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `siswa`', [], false)
+ 2 SYSTEMPATH\Model.php(286): CodeIgniter\Database\BaseBuilder->get()
+ 3 SYSTEMPATH\BaseModel.php(676): CodeIgniter\Model->doFindAll(0, 0)
+ 4 APPPATH\Models\SiswaModel.php(20): CodeIgniter\BaseModel->findAll()
+ 5 APPPATH\Controllers\SiswaController.php(13): App\Models\SiswaModel->getSiswa()
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\SiswaController->index()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\SiswaController))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\platform-belajar\\public\\index.php')
+CRITICAL - 2024-12-21 06:17:31 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Table 'klikbelajar.siswa' doesn't exist
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 317.
+ 1 SYSTEMPATH\Database\BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *
+FROM `siswa`')
+ 2 SYSTEMPATH\Database\BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *
+FROM `siswa`')
+ 3 SYSTEMPATH\Database\BaseBuilder.php(1644): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `siswa`', [], false)
+ 4 SYSTEMPATH\Model.php(286): CodeIgniter\Database\BaseBuilder->get()
+ 5 SYSTEMPATH\BaseModel.php(676): CodeIgniter\Model->doFindAll(0, 0)
+ 6 APPPATH\Models\SiswaModel.php(20): CodeIgniter\BaseModel->findAll()
+ 7 APPPATH\Controllers\SiswaController.php(13): App\Models\SiswaModel->getSiswa()
+ 8 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\SiswaController->index()
+ 9 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\SiswaController))
+10 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+13 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+14 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\platform-belajar\\public\\index.php')
+CRITICAL - 2024-12-21 06:17:31 --> [Caused by] mysqli_sql_exception: Table 'klikbelajar.siswa' doesn't exist
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 312.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(312): mysqli->query('SELECT *
+FROM `siswa`', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *
+FROM `siswa`')
+ 3 SYSTEMPATH\Database\BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *
+FROM `siswa`')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1644): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `siswa`', [], false)
+ 5 SYSTEMPATH\Model.php(286): CodeIgniter\Database\BaseBuilder->get()
+ 6 SYSTEMPATH\BaseModel.php(676): CodeIgniter\Model->doFindAll(0, 0)
+ 7 APPPATH\Models\SiswaModel.php(20): CodeIgniter\BaseModel->findAll()
+ 8 APPPATH\Controllers\SiswaController.php(13): App\Models\SiswaModel->getSiswa()
+ 9 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\SiswaController->index()
+10 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\SiswaController))
+11 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+13 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+14 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+15 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\platform-belajar\\public\\index.php')
+CRITICAL - 2024-12-21 06:19:20 --> ErrorException: Undefined variable $no
+[Method: GET, Route: siswa]
+in APPPATH\Views\siswa\siswa_view.php on line 188.
+ 1 APPPATH\Views\siswa\siswa_view.php(188): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $no', 'C:\\xampp\\htdocs\\platform-belajar\\app\\Views\\siswa\\siswa_view.php', 188)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\platform-belajar\\app\\Views\\siswa\\siswa_view.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('siswa/siswa_view', [], true)
+ 5 APPPATH\Controllers\SiswaController.php(15): view('siswa/siswa_view', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\SiswaController->index()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\SiswaController))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\platform-belajar\\public\\index.php')
+CRITICAL - 2024-12-21 06:19:33 --> ErrorException: Undefined variable $no
+[Method: GET, Route: siswa]
+in APPPATH\Views\siswa\siswa_view.php on line 204.
+ 1 APPPATH\Views\siswa\siswa_view.php(204): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $no', 'C:\\xampp\\htdocs\\platform-belajar\\app\\Views\\siswa\\siswa_view.php', 204)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\platform-belajar\\app\\Views\\siswa\\siswa_view.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('siswa/siswa_view', [], true)
+ 5 APPPATH\Controllers\SiswaController.php(15): view('siswa/siswa_view', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\SiswaController->index()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\SiswaController))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\platform-belajar\\public\\index.php')
+CRITICAL - 2024-12-21 06:19:34 --> ErrorException: Undefined variable $no
+[Method: GET, Route: siswa]
+in APPPATH\Views\siswa\siswa_view.php on line 204.
+ 1 APPPATH\Views\siswa\siswa_view.php(204): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $no', 'C:\\xampp\\htdocs\\platform-belajar\\app\\Views\\siswa\\siswa_view.php', 204)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\platform-belajar\\app\\Views\\siswa\\siswa_view.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('siswa/siswa_view', [], true)
+ 5 APPPATH\Controllers\SiswaController.php(15): view('siswa/siswa_view', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\SiswaController->index()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\SiswaController))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\platform-belajar\\public\\index.php')
+INFO - 2024-12-21 06:20:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-21 06:20:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-21 06:21:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-21 06:22:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-12-21 06:22:49 --> ErrorException: Undefined variable $getSiswa
+[Method: GET, Route: materi]
+in APPPATH\Views\materi\materi_view.php on line 186.
+ 1 APPPATH\Views\materi\materi_view.php(186): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $getSiswa', 'C:\\xampp\\htdocs\\platform-belajar\\app\\Views\\materi\\materi_view.php', 186)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\platform-belajar\\app\\Views\\materi\\materi_view.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('materi/materi_view', [], true)
+ 5 APPPATH\Controllers\MateriController.php(17): view('materi/materi_view', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\MateriController->index()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MateriController))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\platform-belajar\\public\\index.php')
+CRITICAL - 2024-12-21 06:26:31 --> ErrorException: Undefined variable $getMateri
+[Method: GET, Route: materi]
+in APPPATH\Views\materi\materi_view.php on line 190.
+ 1 APPPATH\Views\materi\materi_view.php(190): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $getMateri', 'C:\\xampp\\htdocs\\platform-belajar\\app\\Views\\materi\\materi_view.php', 190)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\platform-belajar\\app\\Views\\materi\\materi_view.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('materi/materi_view', [], true)
+ 5 APPPATH\Controllers\MateriController.php(17): view('materi/materi_view', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\MateriController->index()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MateriController))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\platform-belajar\\public\\index.php')
+CRITICAL - 2024-12-21 06:26:32 --> ErrorException: Undefined variable $getMateri
+[Method: GET, Route: materi]
+in APPPATH\Views\materi\materi_view.php on line 190.
+ 1 APPPATH\Views\materi\materi_view.php(190): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $getMateri', 'C:\\xampp\\htdocs\\platform-belajar\\app\\Views\\materi\\materi_view.php', 190)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\platform-belajar\\app\\Views\\materi\\materi_view.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('materi/materi_view', [], true)
+ 5 APPPATH\Controllers\MateriController.php(17): view('materi/materi_view', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\MateriController->index()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MateriController))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\platform-belajar\\public\\index.php')
+CRITICAL - 2024-12-21 06:26:32 --> ErrorException: Undefined variable $getMateri
+[Method: GET, Route: materi]
+in APPPATH\Views\materi\materi_view.php on line 190.
+ 1 APPPATH\Views\materi\materi_view.php(190): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $getMateri', 'C:\\xampp\\htdocs\\platform-belajar\\app\\Views\\materi\\materi_view.php', 190)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\platform-belajar\\app\\Views\\materi\\materi_view.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('materi/materi_view', [], true)
+ 5 APPPATH\Controllers\MateriController.php(17): view('materi/materi_view', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\MateriController->index()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MateriController))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\platform-belajar\\public\\index.php')
+CRITICAL - 2024-12-21 06:26:33 --> ErrorException: Undefined variable $getMateri
+[Method: GET, Route: materi]
+in APPPATH\Views\materi\materi_view.php on line 190.
+ 1 APPPATH\Views\materi\materi_view.php(190): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $getMateri', 'C:\\xampp\\htdocs\\platform-belajar\\app\\Views\\materi\\materi_view.php', 190)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\platform-belajar\\app\\Views\\materi\\materi_view.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('materi/materi_view', [], true)
+ 5 APPPATH\Controllers\MateriController.php(17): view('materi/materi_view', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\MateriController->index()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MateriController))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\platform-belajar\\public\\index.php')
+CRITICAL - 2024-12-21 06:26:34 --> ErrorException: Undefined variable $getMateri
+[Method: GET, Route: materi]
+in APPPATH\Views\materi\materi_view.php on line 190.
+ 1 APPPATH\Views\materi\materi_view.php(190): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $getMateri', 'C:\\xampp\\htdocs\\platform-belajar\\app\\Views\\materi\\materi_view.php', 190)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\platform-belajar\\app\\Views\\materi\\materi_view.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('materi/materi_view', [], true)
+ 5 APPPATH\Controllers\MateriController.php(17): view('materi/materi_view', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\MateriController->index()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MateriController))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\platform-belajar\\public\\index.php')
+CRITICAL - 2024-12-21 06:26:34 --> ErrorException: Undefined variable $getMateri
+[Method: GET, Route: materi]
+in APPPATH\Views\materi\materi_view.php on line 190.
+ 1 APPPATH\Views\materi\materi_view.php(190): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $getMateri', 'C:\\xampp\\htdocs\\platform-belajar\\app\\Views\\materi\\materi_view.php', 190)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\platform-belajar\\app\\Views\\materi\\materi_view.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('materi/materi_view', [], true)
+ 5 APPPATH\Controllers\MateriController.php(17): view('materi/materi_view', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\MateriController->index()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MateriController))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\platform-belajar\\public\\index.php')
+CRITICAL - 2024-12-21 06:29:32 --> ErrorException: Undefined variable $guru
+[Method: GET, Route: materi/tambah]
+in APPPATH\Views\materi\tambah_materi_view.php on line 39.
+ 1 APPPATH\Views\materi\tambah_materi_view.php(39): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $guru', 'C:\\xampp\\htdocs\\platform-belajar\\app\\Views\\materi\\tambah_materi_view.php', 39)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\platform-belajar\\app\\Views\\materi\\tambah_materi_view.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('materi/tambah_materi_view', [], true)
+ 5 APPPATH\Controllers\MateriController.php(23): view('materi/tambah_materi_view', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\MateriController->tambah()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MateriController))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\platform-belajar\\public\\index.php')
+CRITICAL - 2024-12-21 06:30:06 --> ErrorException: Undefined variable $guru
+[Method: GET, Route: materi/tambah]
+in APPPATH\Views\materi\tambah_materi_view.php on line 39.
+ 1 APPPATH\Views\materi\tambah_materi_view.php(39): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $guru', 'C:\\xampp\\htdocs\\platform-belajar\\app\\Views\\materi\\tambah_materi_view.php', 39)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\platform-belajar\\app\\Views\\materi\\tambah_materi_view.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('materi/tambah_materi_view', [], true)
+ 5 APPPATH\Controllers\MateriController.php(23): view('materi/tambah_materi_view', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\MateriController->tambah()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MateriController))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\platform-belajar\\public\\index.php')
+CRITICAL - 2024-12-21 06:30:34 --> ErrorException: Undefined variable $materi
+[Method: GET, Route: materi/tambah]
+in APPPATH\Views\materi\tambah_materi_view.php on line 39.
+ 1 APPPATH\Views\materi\tambah_materi_view.php(39): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $materi', 'C:\\xampp\\htdocs\\platform-belajar\\app\\Views\\materi\\tambah_materi_view.php', 39)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\platform-belajar\\app\\Views\\materi\\tambah_materi_view.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('materi/tambah_materi_view', [], true)
+ 5 APPPATH\Controllers\MateriController.php(23): view('materi/tambah_materi_view', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\MateriController->tambah()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MateriController))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\platform-belajar\\public\\index.php')
+CRITICAL - 2024-12-21 06:30:35 --> ErrorException: Undefined variable $materi
+[Method: GET, Route: materi/tambah]
+in APPPATH\Views\materi\tambah_materi_view.php on line 39.
+ 1 APPPATH\Views\materi\tambah_materi_view.php(39): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $materi', 'C:\\xampp\\htdocs\\platform-belajar\\app\\Views\\materi\\tambah_materi_view.php', 39)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\platform-belajar\\app\\Views\\materi\\tambah_materi_view.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('materi/tambah_materi_view', [], true)
+ 5 APPPATH\Controllers\MateriController.php(23): view('materi/tambah_materi_view', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\MateriController->tambah()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MateriController))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\platform-belajar\\public\\index.php')
+CRITICAL - 2024-12-21 06:31:02 --> ErrorException: Undefined variable $materi
+[Method: GET, Route: materi/tambah]
+in APPPATH\Views\materi\tambah_materi_view.php on line 39.
+ 1 APPPATH\Views\materi\tambah_materi_view.php(39): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $materi', 'C:\\xampp\\htdocs\\platform-belajar\\app\\Views\\materi\\tambah_materi_view.php', 39)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\platform-belajar\\app\\Views\\materi\\tambah_materi_view.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('materi/tambah_materi_view', [], true)
+ 5 APPPATH\Controllers\MateriController.php(23): view('materi/tambah_materi_view', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\MateriController->tambah()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MateriController))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\platform-belajar\\public\\index.php')
+CRITICAL - 2024-12-21 06:31:03 --> ErrorException: Undefined variable $materi
+[Method: GET, Route: materi/tambah]
+in APPPATH\Views\materi\tambah_materi_view.php on line 39.
+ 1 APPPATH\Views\materi\tambah_materi_view.php(39): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $materi', 'C:\\xampp\\htdocs\\platform-belajar\\app\\Views\\materi\\tambah_materi_view.php', 39)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\platform-belajar\\app\\Views\\materi\\tambah_materi_view.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('materi/tambah_materi_view', [], true)
+ 5 APPPATH\Controllers\MateriController.php(23): view('materi/tambah_materi_view', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\MateriController->tambah()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MateriController))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\platform-belajar\\public\\index.php')
+CRITICAL - 2024-12-21 06:31:03 --> ErrorException: Undefined variable $materi
+[Method: GET, Route: materi/tambah]
+in APPPATH\Views\materi\tambah_materi_view.php on line 39.
+ 1 APPPATH\Views\materi\tambah_materi_view.php(39): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $materi', 'C:\\xampp\\htdocs\\platform-belajar\\app\\Views\\materi\\tambah_materi_view.php', 39)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\platform-belajar\\app\\Views\\materi\\tambah_materi_view.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('materi/tambah_materi_view', [], true)
+ 5 APPPATH\Controllers\MateriController.php(23): view('materi/tambah_materi_view', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\MateriController->tambah()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MateriController))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\platform-belajar\\public\\index.php')
+CRITICAL - 2024-12-21 06:31:04 --> ErrorException: Undefined variable $materi
+[Method: GET, Route: materi/tambah]
+in APPPATH\Views\materi\tambah_materi_view.php on line 39.
+ 1 APPPATH\Views\materi\tambah_materi_view.php(39): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $materi', 'C:\\xampp\\htdocs\\platform-belajar\\app\\Views\\materi\\tambah_materi_view.php', 39)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\platform-belajar\\app\\Views\\materi\\tambah_materi_view.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('materi/tambah_materi_view', [], true)
+ 5 APPPATH\Controllers\MateriController.php(23): view('materi/tambah_materi_view', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\MateriController->tambah()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MateriController))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\platform-belajar\\public\\index.php')
+CRITICAL - 2024-12-21 06:31:04 --> ErrorException: Undefined variable $materi
+[Method: GET, Route: materi/tambah]
+in APPPATH\Views\materi\tambah_materi_view.php on line 39.
+ 1 APPPATH\Views\materi\tambah_materi_view.php(39): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $materi', 'C:\\xampp\\htdocs\\platform-belajar\\app\\Views\\materi\\tambah_materi_view.php', 39)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\platform-belajar\\app\\Views\\materi\\tambah_materi_view.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('materi/tambah_materi_view', [], true)
+ 5 APPPATH\Controllers\MateriController.php(23): view('materi/tambah_materi_view', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\MateriController->tambah()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MateriController))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\platform-belajar\\public\\index.php')
+CRITICAL - 2024-12-21 06:31:04 --> ErrorException: Undefined variable $materi
+[Method: GET, Route: materi/tambah]
+in APPPATH\Views\materi\tambah_materi_view.php on line 39.
+ 1 APPPATH\Views\materi\tambah_materi_view.php(39): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $materi', 'C:\\xampp\\htdocs\\platform-belajar\\app\\Views\\materi\\tambah_materi_view.php', 39)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\platform-belajar\\app\\Views\\materi\\tambah_materi_view.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('materi/tambah_materi_view', [], true)
+ 5 APPPATH\Controllers\MateriController.php(23): view('materi/tambah_materi_view', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\MateriController->tambah()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MateriController))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\platform-belajar\\public\\index.php')
+ERROR - 2024-12-21 06:39:15 --> mysqli_sql_exception: Column 'nama_lengkap' cannot be null in C:\xampp\htdocs\platform-belajar\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php:312
+Stack trace:
+#0 C:\xampp\htdocs\platform-belajar\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(312): mysqli->query('INSERT INTO `ma...', 0)
+#1 C:\xampp\htdocs\platform-belajar\vendor\codeigniter4\framework\system\Database\BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `ma...')
+#2 C:\xampp\htdocs\platform-belajar\vendor\codeigniter4\framework\system\Database\BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `ma...')
+#3 C:\xampp\htdocs\platform-belajar\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(2340): CodeIgniter\Database\BaseConnection->query('INSERT INTO `ma...', Array, false)
+#4 C:\xampp\htdocs\platform-belajar\app\Models\MateriModel.php(31): CodeIgniter\Database\BaseBuilder->insert(Array)
+#5 C:\xampp\htdocs\platform-belajar\app\Controllers\MateriController.php(121): App\Models\MateriModel->saveMateri(Array)
+#6 C:\xampp\htdocs\platform-belajar\vendor\codeigniter4\framework\system\CodeIgniter.php(933): App\Controllers\MateriController->save()
+#7 C:\xampp\htdocs\platform-belajar\vendor\codeigniter4\framework\system\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MateriController))
+#8 C:\xampp\htdocs\platform-belajar\vendor\codeigniter4\framework\system\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\platform-belajar\vendor\codeigniter4\framework\system\Boot.php(325): CodeIgniter\CodeIgniter->run()
+#10 C:\xampp\htdocs\platform-belajar\vendor\codeigniter4\framework\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#11 C:\xampp\htdocs\platform-belajar\public\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#12 C:\xampp\htdocs\platform-belajar\vendor\codeigniter4\framework\system\rewrite.php(44): require_once('C:\\xampp\\htdocs...')
+#13 {main}
+CRITICAL - 2024-12-21 06:39:15 --> CodeIgniter\Database\Exceptions\DatabaseException: Column 'nama_lengkap' cannot be null
+[Method: POST, Route: materi/save]
+in SYSTEMPATH\Database\BaseConnection.php on line 688.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(2340): CodeIgniter\Database\BaseConnection->query('INSERT INTO `materi` (`nama_lengkap`, `mapel`, `deskripsi`, `kelas`, `video`) VALUES (:nama_lengkap:, :mapel:, :deskripsi:, :kelas:, :video:)', [...], false)
+ 2 APPPATH\Models\MateriModel.php(31): CodeIgniter\Database\BaseBuilder->insert([...])
+ 3 APPPATH\Controllers\MateriController.php(121): App\Models\MateriModel->saveMateri([...])
+ 4 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\MateriController->save()
+ 5 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MateriController))
+ 6 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+10 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\platform-belajar\\public\\index.php')
+CRITICAL - 2024-12-21 06:39:15 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Column 'nama_lengkap' cannot be null
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 317.
+ 1 SYSTEMPATH\Database\BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `materi` (`nama_lengkap`, `mapel`, `deskripsi`, `kelas`, `video`) VALUES (NULL, \'Algoritma\', \'Belajar algoritma\', \'XI\', \'1734763155_8ba83edc63c57cb0ad70.mp4\')')
+ 2 SYSTEMPATH\Database\BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `materi` (`nama_lengkap`, `mapel`, `deskripsi`, `kelas`, `video`) VALUES (NULL, \'Algoritma\', \'Belajar algoritma\', \'XI\', \'1734763155_8ba83edc63c57cb0ad70.mp4\')')
+ 3 SYSTEMPATH\Database\BaseBuilder.php(2340): CodeIgniter\Database\BaseConnection->query('INSERT INTO `materi` (`nama_lengkap`, `mapel`, `deskripsi`, `kelas`, `video`) VALUES (:nama_lengkap:, :mapel:, :deskripsi:, :kelas:, :video:)', [...], false)
+ 4 APPPATH\Models\MateriModel.php(31): CodeIgniter\Database\BaseBuilder->insert([...])
+ 5 APPPATH\Controllers\MateriController.php(121): App\Models\MateriModel->saveMateri([...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\MateriController->save()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MateriController))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\platform-belajar\\public\\index.php')
+CRITICAL - 2024-12-21 06:39:15 --> [Caused by] mysqli_sql_exception: Column 'nama_lengkap' cannot be null
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 312.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(312): mysqli->query('INSERT INTO `materi` (`nama_lengkap`, `mapel`, `deskripsi`, `kelas`, `video`) VALUES (NULL, \'Algoritma\', \'Belajar algoritma\', \'XI\', \'1734763155_8ba83edc63c57cb0ad70.mp4\')', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `materi` (`nama_lengkap`, `mapel`, `deskripsi`, `kelas`, `video`) VALUES (NULL, \'Algoritma\', \'Belajar algoritma\', \'XI\', \'1734763155_8ba83edc63c57cb0ad70.mp4\')')
+ 3 SYSTEMPATH\Database\BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `materi` (`nama_lengkap`, `mapel`, `deskripsi`, `kelas`, `video`) VALUES (NULL, \'Algoritma\', \'Belajar algoritma\', \'XI\', \'1734763155_8ba83edc63c57cb0ad70.mp4\')')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(2340): CodeIgniter\Database\BaseConnection->query('INSERT INTO `materi` (`nama_lengkap`, `mapel`, `deskripsi`, `kelas`, `video`) VALUES (:nama_lengkap:, :mapel:, :deskripsi:, :kelas:, :video:)', [...], false)
+ 5 APPPATH\Models\MateriModel.php(31): CodeIgniter\Database\BaseBuilder->insert([...])
+ 6 APPPATH\Controllers\MateriController.php(121): App\Models\MateriModel->saveMateri([...])
+ 7 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\MateriController->save()
+ 8 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MateriController))
+ 9 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+12 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+13 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\platform-belajar\\public\\index.php')
+ERROR - 2024-12-21 06:39:35 --> mysqli_sql_exception: Column 'nama_lengkap' cannot be null in C:\xampp\htdocs\platform-belajar\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php:312
+Stack trace:
+#0 C:\xampp\htdocs\platform-belajar\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(312): mysqli->query('INSERT INTO `ma...', 0)
+#1 C:\xampp\htdocs\platform-belajar\vendor\codeigniter4\framework\system\Database\BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `ma...')
+#2 C:\xampp\htdocs\platform-belajar\vendor\codeigniter4\framework\system\Database\BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `ma...')
+#3 C:\xampp\htdocs\platform-belajar\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(2340): CodeIgniter\Database\BaseConnection->query('INSERT INTO `ma...', Array, false)
+#4 C:\xampp\htdocs\platform-belajar\app\Models\MateriModel.php(31): CodeIgniter\Database\BaseBuilder->insert(Array)
+#5 C:\xampp\htdocs\platform-belajar\app\Controllers\MateriController.php(121): App\Models\MateriModel->saveMateri(Array)
+#6 C:\xampp\htdocs\platform-belajar\vendor\codeigniter4\framework\system\CodeIgniter.php(933): App\Controllers\MateriController->save()
+#7 C:\xampp\htdocs\platform-belajar\vendor\codeigniter4\framework\system\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MateriController))
+#8 C:\xampp\htdocs\platform-belajar\vendor\codeigniter4\framework\system\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\platform-belajar\vendor\codeigniter4\framework\system\Boot.php(325): CodeIgniter\CodeIgniter->run()
+#10 C:\xampp\htdocs\platform-belajar\vendor\codeigniter4\framework\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#11 C:\xampp\htdocs\platform-belajar\public\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#12 C:\xampp\htdocs\platform-belajar\vendor\codeigniter4\framework\system\rewrite.php(44): require_once('C:\\xampp\\htdocs...')
+#13 {main}
+CRITICAL - 2024-12-21 06:39:35 --> CodeIgniter\Database\Exceptions\DatabaseException: Column 'nama_lengkap' cannot be null
+[Method: POST, Route: materi/save]
+in SYSTEMPATH\Database\BaseConnection.php on line 688.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(2340): CodeIgniter\Database\BaseConnection->query('INSERT INTO `materi` (`nama_lengkap`, `mapel`, `deskripsi`, `kelas`, `video`) VALUES (:nama_lengkap:, :mapel:, :deskripsi:, :kelas:, :video:)', [...], false)
+ 2 APPPATH\Models\MateriModel.php(31): CodeIgniter\Database\BaseBuilder->insert([...])
+ 3 APPPATH\Controllers\MateriController.php(121): App\Models\MateriModel->saveMateri([...])
+ 4 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\MateriController->save()
+ 5 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MateriController))
+ 6 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+10 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\platform-belajar\\public\\index.php')
+CRITICAL - 2024-12-21 06:39:35 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Column 'nama_lengkap' cannot be null
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 317.
+ 1 SYSTEMPATH\Database\BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `materi` (`nama_lengkap`, `mapel`, `deskripsi`, `kelas`, `video`) VALUES (NULL, \'Algoritma\', \'Belajar algoritma\', \'XI\', \'1734763175_63e9c2acb13987cce426.mp4\')')
+ 2 SYSTEMPATH\Database\BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `materi` (`nama_lengkap`, `mapel`, `deskripsi`, `kelas`, `video`) VALUES (NULL, \'Algoritma\', \'Belajar algoritma\', \'XI\', \'1734763175_63e9c2acb13987cce426.mp4\')')
+ 3 SYSTEMPATH\Database\BaseBuilder.php(2340): CodeIgniter\Database\BaseConnection->query('INSERT INTO `materi` (`nama_lengkap`, `mapel`, `deskripsi`, `kelas`, `video`) VALUES (:nama_lengkap:, :mapel:, :deskripsi:, :kelas:, :video:)', [...], false)
+ 4 APPPATH\Models\MateriModel.php(31): CodeIgniter\Database\BaseBuilder->insert([...])
+ 5 APPPATH\Controllers\MateriController.php(121): App\Models\MateriModel->saveMateri([...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\MateriController->save()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MateriController))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\platform-belajar\\public\\index.php')
+CRITICAL - 2024-12-21 06:39:35 --> [Caused by] mysqli_sql_exception: Column 'nama_lengkap' cannot be null
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 312.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(312): mysqli->query('INSERT INTO `materi` (`nama_lengkap`, `mapel`, `deskripsi`, `kelas`, `video`) VALUES (NULL, \'Algoritma\', \'Belajar algoritma\', \'XI\', \'1734763175_63e9c2acb13987cce426.mp4\')', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `materi` (`nama_lengkap`, `mapel`, `deskripsi`, `kelas`, `video`) VALUES (NULL, \'Algoritma\', \'Belajar algoritma\', \'XI\', \'1734763175_63e9c2acb13987cce426.mp4\')')
+ 3 SYSTEMPATH\Database\BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `materi` (`nama_lengkap`, `mapel`, `deskripsi`, `kelas`, `video`) VALUES (NULL, \'Algoritma\', \'Belajar algoritma\', \'XI\', \'1734763175_63e9c2acb13987cce426.mp4\')')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(2340): CodeIgniter\Database\BaseConnection->query('INSERT INTO `materi` (`nama_lengkap`, `mapel`, `deskripsi`, `kelas`, `video`) VALUES (:nama_lengkap:, :mapel:, :deskripsi:, :kelas:, :video:)', [...], false)
+ 5 APPPATH\Models\MateriModel.php(31): CodeIgniter\Database\BaseBuilder->insert([...])
+ 6 APPPATH\Controllers\MateriController.php(121): App\Models\MateriModel->saveMateri([...])
+ 7 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\MateriController->save()
+ 8 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MateriController))
+ 9 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+12 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+13 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\platform-belajar\\public\\index.php')
+ERROR - 2024-12-21 06:40:45 --> mysqli_sql_exception: Column 'nama_lengkap' cannot be null in C:\xampp\htdocs\platform-belajar\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php:312
+Stack trace:
+#0 C:\xampp\htdocs\platform-belajar\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(312): mysqli->query('INSERT INTO `ma...', 0)
+#1 C:\xampp\htdocs\platform-belajar\vendor\codeigniter4\framework\system\Database\BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `ma...')
+#2 C:\xampp\htdocs\platform-belajar\vendor\codeigniter4\framework\system\Database\BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `ma...')
+#3 C:\xampp\htdocs\platform-belajar\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(2340): CodeIgniter\Database\BaseConnection->query('INSERT INTO `ma...', Array, false)
+#4 C:\xampp\htdocs\platform-belajar\app\Models\MateriModel.php(31): CodeIgniter\Database\BaseBuilder->insert(Array)
+#5 C:\xampp\htdocs\platform-belajar\app\Controllers\MateriController.php(121): App\Models\MateriModel->saveMateri(Array)
+#6 C:\xampp\htdocs\platform-belajar\vendor\codeigniter4\framework\system\CodeIgniter.php(933): App\Controllers\MateriController->save()
+#7 C:\xampp\htdocs\platform-belajar\vendor\codeigniter4\framework\system\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MateriController))
+#8 C:\xampp\htdocs\platform-belajar\vendor\codeigniter4\framework\system\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\platform-belajar\vendor\codeigniter4\framework\system\Boot.php(325): CodeIgniter\CodeIgniter->run()
+#10 C:\xampp\htdocs\platform-belajar\vendor\codeigniter4\framework\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#11 C:\xampp\htdocs\platform-belajar\public\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#12 C:\xampp\htdocs\platform-belajar\vendor\codeigniter4\framework\system\rewrite.php(44): require_once('C:\\xampp\\htdocs...')
+#13 {main}
+CRITICAL - 2024-12-21 06:40:45 --> CodeIgniter\Database\Exceptions\DatabaseException: Column 'nama_lengkap' cannot be null
+[Method: POST, Route: materi/save]
+in SYSTEMPATH\Database\BaseConnection.php on line 688.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(2340): CodeIgniter\Database\BaseConnection->query('INSERT INTO `materi` (`nama_lengkap`, `mapel`, `deskripsi`, `kelas`, `video`) VALUES (:nama_lengkap:, :mapel:, :deskripsi:, :kelas:, :video:)', [...], false)
+ 2 APPPATH\Models\MateriModel.php(31): CodeIgniter\Database\BaseBuilder->insert([...])
+ 3 APPPATH\Controllers\MateriController.php(121): App\Models\MateriModel->saveMateri([...])
+ 4 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\MateriController->save()
+ 5 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MateriController))
+ 6 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+10 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\platform-belajar\\public\\index.php')
+CRITICAL - 2024-12-21 06:40:45 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Column 'nama_lengkap' cannot be null
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 317.
+ 1 SYSTEMPATH\Database\BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `materi` (`nama_lengkap`, `mapel`, `deskripsi`, `kelas`, `video`) VALUES (NULL, \'Algoritma\', \'Belajar algoritma\', \'XI\', \'1734763245_89ea06c906bc23427de5.mp4\')')
+ 2 SYSTEMPATH\Database\BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `materi` (`nama_lengkap`, `mapel`, `deskripsi`, `kelas`, `video`) VALUES (NULL, \'Algoritma\', \'Belajar algoritma\', \'XI\', \'1734763245_89ea06c906bc23427de5.mp4\')')
+ 3 SYSTEMPATH\Database\BaseBuilder.php(2340): CodeIgniter\Database\BaseConnection->query('INSERT INTO `materi` (`nama_lengkap`, `mapel`, `deskripsi`, `kelas`, `video`) VALUES (:nama_lengkap:, :mapel:, :deskripsi:, :kelas:, :video:)', [...], false)
+ 4 APPPATH\Models\MateriModel.php(31): CodeIgniter\Database\BaseBuilder->insert([...])
+ 5 APPPATH\Controllers\MateriController.php(121): App\Models\MateriModel->saveMateri([...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\MateriController->save()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MateriController))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\platform-belajar\\public\\index.php')
+CRITICAL - 2024-12-21 06:40:45 --> [Caused by] mysqli_sql_exception: Column 'nama_lengkap' cannot be null
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 312.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(312): mysqli->query('INSERT INTO `materi` (`nama_lengkap`, `mapel`, `deskripsi`, `kelas`, `video`) VALUES (NULL, \'Algoritma\', \'Belajar algoritma\', \'XI\', \'1734763245_89ea06c906bc23427de5.mp4\')', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `materi` (`nama_lengkap`, `mapel`, `deskripsi`, `kelas`, `video`) VALUES (NULL, \'Algoritma\', \'Belajar algoritma\', \'XI\', \'1734763245_89ea06c906bc23427de5.mp4\')')
+ 3 SYSTEMPATH\Database\BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `materi` (`nama_lengkap`, `mapel`, `deskripsi`, `kelas`, `video`) VALUES (NULL, \'Algoritma\', \'Belajar algoritma\', \'XI\', \'1734763245_89ea06c906bc23427de5.mp4\')')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(2340): CodeIgniter\Database\BaseConnection->query('INSERT INTO `materi` (`nama_lengkap`, `mapel`, `deskripsi`, `kelas`, `video`) VALUES (:nama_lengkap:, :mapel:, :deskripsi:, :kelas:, :video:)', [...], false)
+ 5 APPPATH\Models\MateriModel.php(31): CodeIgniter\Database\BaseBuilder->insert([...])
+ 6 APPPATH\Controllers\MateriController.php(121): App\Models\MateriModel->saveMateri([...])
+ 7 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\MateriController->save()
+ 8 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MateriController))
+ 9 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+12 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+13 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\platform-belajar\\public\\index.php')
+ERROR - 2024-12-21 06:40:51 --> mysqli_sql_exception: Column 'nama_lengkap' cannot be null in C:\xampp\htdocs\platform-belajar\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php:312
+Stack trace:
+#0 C:\xampp\htdocs\platform-belajar\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(312): mysqli->query('INSERT INTO `ma...', 0)
+#1 C:\xampp\htdocs\platform-belajar\vendor\codeigniter4\framework\system\Database\BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `ma...')
+#2 C:\xampp\htdocs\platform-belajar\vendor\codeigniter4\framework\system\Database\BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `ma...')
+#3 C:\xampp\htdocs\platform-belajar\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(2340): CodeIgniter\Database\BaseConnection->query('INSERT INTO `ma...', Array, false)
+#4 C:\xampp\htdocs\platform-belajar\app\Models\MateriModel.php(31): CodeIgniter\Database\BaseBuilder->insert(Array)
+#5 C:\xampp\htdocs\platform-belajar\app\Controllers\MateriController.php(121): App\Models\MateriModel->saveMateri(Array)
+#6 C:\xampp\htdocs\platform-belajar\vendor\codeigniter4\framework\system\CodeIgniter.php(933): App\Controllers\MateriController->save()
+#7 C:\xampp\htdocs\platform-belajar\vendor\codeigniter4\framework\system\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MateriController))
+#8 C:\xampp\htdocs\platform-belajar\vendor\codeigniter4\framework\system\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\platform-belajar\vendor\codeigniter4\framework\system\Boot.php(325): CodeIgniter\CodeIgniter->run()
+#10 C:\xampp\htdocs\platform-belajar\vendor\codeigniter4\framework\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#11 C:\xampp\htdocs\platform-belajar\public\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#12 C:\xampp\htdocs\platform-belajar\vendor\codeigniter4\framework\system\rewrite.php(44): require_once('C:\\xampp\\htdocs...')
+#13 {main}
+CRITICAL - 2024-12-21 06:40:51 --> CodeIgniter\Database\Exceptions\DatabaseException: Column 'nama_lengkap' cannot be null
+[Method: POST, Route: materi/save]
+in SYSTEMPATH\Database\BaseConnection.php on line 688.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(2340): CodeIgniter\Database\BaseConnection->query('INSERT INTO `materi` (`nama_lengkap`, `mapel`, `deskripsi`, `kelas`, `video`) VALUES (:nama_lengkap:, :mapel:, :deskripsi:, :kelas:, :video:)', [...], false)
+ 2 APPPATH\Models\MateriModel.php(31): CodeIgniter\Database\BaseBuilder->insert([...])
+ 3 APPPATH\Controllers\MateriController.php(121): App\Models\MateriModel->saveMateri([...])
+ 4 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\MateriController->save()
+ 5 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MateriController))
+ 6 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+10 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\platform-belajar\\public\\index.php')
+CRITICAL - 2024-12-21 06:40:51 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Column 'nama_lengkap' cannot be null
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 317.
+ 1 SYSTEMPATH\Database\BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `materi` (`nama_lengkap`, `mapel`, `deskripsi`, `kelas`, `video`) VALUES (NULL, \'Algoritma\', \'Belajar algoritma\', \'XI\', \'1734763251_d36f038d91f30d553b23.mp4\')')
+ 2 SYSTEMPATH\Database\BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `materi` (`nama_lengkap`, `mapel`, `deskripsi`, `kelas`, `video`) VALUES (NULL, \'Algoritma\', \'Belajar algoritma\', \'XI\', \'1734763251_d36f038d91f30d553b23.mp4\')')
+ 3 SYSTEMPATH\Database\BaseBuilder.php(2340): CodeIgniter\Database\BaseConnection->query('INSERT INTO `materi` (`nama_lengkap`, `mapel`, `deskripsi`, `kelas`, `video`) VALUES (:nama_lengkap:, :mapel:, :deskripsi:, :kelas:, :video:)', [...], false)
+ 4 APPPATH\Models\MateriModel.php(31): CodeIgniter\Database\BaseBuilder->insert([...])
+ 5 APPPATH\Controllers\MateriController.php(121): App\Models\MateriModel->saveMateri([...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\MateriController->save()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MateriController))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\platform-belajar\\public\\index.php')
+CRITICAL - 2024-12-21 06:40:51 --> [Caused by] mysqli_sql_exception: Column 'nama_lengkap' cannot be null
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 312.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(312): mysqli->query('INSERT INTO `materi` (`nama_lengkap`, `mapel`, `deskripsi`, `kelas`, `video`) VALUES (NULL, \'Algoritma\', \'Belajar algoritma\', \'XI\', \'1734763251_d36f038d91f30d553b23.mp4\')', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `materi` (`nama_lengkap`, `mapel`, `deskripsi`, `kelas`, `video`) VALUES (NULL, \'Algoritma\', \'Belajar algoritma\', \'XI\', \'1734763251_d36f038d91f30d553b23.mp4\')')
+ 3 SYSTEMPATH\Database\BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `materi` (`nama_lengkap`, `mapel`, `deskripsi`, `kelas`, `video`) VALUES (NULL, \'Algoritma\', \'Belajar algoritma\', \'XI\', \'1734763251_d36f038d91f30d553b23.mp4\')')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(2340): CodeIgniter\Database\BaseConnection->query('INSERT INTO `materi` (`nama_lengkap`, `mapel`, `deskripsi`, `kelas`, `video`) VALUES (:nama_lengkap:, :mapel:, :deskripsi:, :kelas:, :video:)', [...], false)
+ 5 APPPATH\Models\MateriModel.php(31): CodeIgniter\Database\BaseBuilder->insert([...])
+ 6 APPPATH\Controllers\MateriController.php(121): App\Models\MateriModel->saveMateri([...])
+ 7 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\MateriController->save()
+ 8 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MateriController))
+ 9 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+12 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+13 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\platform-belajar\\public\\index.php')
+CRITICAL - 2024-12-21 06:45:43 --> ErrorException: Undefined variable $guru
+[Method: GET, Route: materi/tambah]
+in APPPATH\Views\materi\tambah_materi_view.php on line 46.
+ 1 APPPATH\Views\materi\tambah_materi_view.php(46): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $guru', 'C:\\xampp\\htdocs\\platform-belajar\\app\\Views\\materi\\tambah_materi_view.php', 46)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\platform-belajar\\app\\Views\\materi\\tambah_materi_view.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('materi/tambah_materi_view', [], true)
+ 5 APPPATH\Controllers\MateriController.php(39): view('materi/tambah_materi_view', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\MateriController->tambah()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MateriController))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\platform-belajar\\public\\index.php')
+CRITICAL - 2024-12-21 06:45:44 --> ErrorException: Undefined variable $guru
+[Method: GET, Route: materi/tambah]
+in APPPATH\Views\materi\tambah_materi_view.php on line 46.
+ 1 APPPATH\Views\materi\tambah_materi_view.php(46): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $guru', 'C:\\xampp\\htdocs\\platform-belajar\\app\\Views\\materi\\tambah_materi_view.php', 46)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\platform-belajar\\app\\Views\\materi\\tambah_materi_view.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('materi/tambah_materi_view', [], true)
+ 5 APPPATH\Controllers\MateriController.php(39): view('materi/tambah_materi_view', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\MateriController->tambah()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MateriController))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\platform-belajar\\public\\index.php')
+CRITICAL - 2024-12-21 06:47:02 --> ParseError: syntax error, unexpected end of file
+[Method: GET, Route: materi/tambah]
+in APPPATH\Views\materi\tambah_materi_view.php on line 83.
+ 1 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 2 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('materi/tambah_materi_view', [], true)
+ 3 APPPATH\Controllers\MateriController.php(39): view('materi/tambah_materi_view', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\MateriController->tambah()
+ 5 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MateriController))
+ 6 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+10 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\platform-belajar\\public\\index.php')
+INFO - 2024-12-21 06:50:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-21 06:50:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-21 06:51:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-21 06:51:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-21 06:53:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-21 06:54:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-12-21 06:57:40 --> BadMethodCallException: Call to undefined method App\Models\MateriModel::hapus
+[Method: GET, Route: materi/hapus/3]
+in SYSTEMPATH\Model.php on line 932.
+ 1 APPPATH\Controllers\MateriController.php(91): CodeIgniter\Model->__call('hapus', [...])
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\MateriController->hapus('3')
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MateriController))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 8 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\platform-belajar\\public\\index.php')
+CRITICAL - 2024-12-21 06:57:50 --> BadMethodCallException: Call to undefined method App\Models\MateriModel::hapus
+[Method: GET, Route: materi/hapus/3]
+in SYSTEMPATH\Model.php on line 932.
+ 1 APPPATH\Controllers\MateriController.php(91): CodeIgniter\Model->__call('hapus', [...])
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\MateriController->hapus('3')
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MateriController))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 8 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\platform-belajar\\public\\index.php')
+INFO - 2024-12-21 06:58:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-21 06:58:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-21 06:58:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-21 06:58:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-21 07:00:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-12-21 07:00:04 --> BadMethodCallException: Call to undefined method App\Models\MateriModel::hapus
+[Method: GET, Route: materi/hapus/5]
+in SYSTEMPATH\Model.php on line 932.
+ 1 APPPATH\Controllers\MateriController.php(91): CodeIgniter\Model->__call('hapus', [...])
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\MateriController->hapus('5')
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MateriController))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 8 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\platform-belajar\\public\\index.php')
+INFO - 2024-12-21 07:00:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-21 07:02:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-21 07:03:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-12-21 07:03:21 --> BadMethodCallException: Call to undefined method App\Models\MateriModel::getMateri
+[Method: GET, Route: materi/hapus/6]
+in SYSTEMPATH\Model.php on line 932.
+ 1 APPPATH\Controllers\MateriController.php(82): CodeIgniter\Model->__call('getMateri', [...])
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\MateriController->hapus('6')
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MateriController))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 8 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\platform-belajar\\public\\index.php')
+INFO - 2024-12-21 07:06:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-21 07:07:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-21 07:07:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-21 07:07:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-21 07:07:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-21 07:09:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-21 07:10:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-21 07:10:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-21 07:15:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-21 07:16:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-12-21 07:26:18 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "materi/edit_materi_view.php"
+[Method: GET, Route: materi/edit/10]
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 41.
+ 1 SYSTEMPATH\View\View.php(222): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('materi/edit_materi_view.php')
+ 2 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('materi/edit_materi_view', [], true)
+ 3 APPPATH\Controllers\MateriController.php(109): view('materi/edit_materi_view', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\MateriController->edit('10')
+ 5 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MateriController))
+ 6 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+10 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\platform-belajar\\public\\index.php')
+CRITICAL - 2024-12-21 07:27:23 --> ErrorException: Undefined variable $item
+[Method: GET, Route: guru]
+in APPPATH\Views\guru\guru_view.php on line 200.
+ 1 APPPATH\Views\guru\guru_view.php(200): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $item', 'C:\\xampp\\htdocs\\platform-belajar\\app\\Views\\guru\\guru_view.php', 200)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\platform-belajar\\app\\Views\\guru\\guru_view.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('guru/guru_view', [], true)
+ 5 APPPATH\Controllers\GuruController.php(15): view('guru/guru_view', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\GuruController->index()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\GuruController))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\platform-belajar\\public\\index.php')
+CRITICAL - 2024-12-21 07:27:44 --> ErrorException: Undefined variable $item
+[Method: GET, Route: guru]
+in APPPATH\Views\guru\guru_view.php on line 200.
+ 1 APPPATH\Views\guru\guru_view.php(200): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $item', 'C:\\xampp\\htdocs\\platform-belajar\\app\\Views\\guru\\guru_view.php', 200)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\platform-belajar\\app\\Views\\guru\\guru_view.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('guru/guru_view', [], true)
+ 5 APPPATH\Controllers\GuruController.php(15): view('guru/guru_view', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\GuruController->index()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\GuruController))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\platform-belajar\\public\\index.php')
+CRITICAL - 2024-12-21 07:27:44 --> ErrorException: Undefined variable $item
+[Method: GET, Route: guru]
+in APPPATH\Views\guru\guru_view.php on line 200.
+ 1 APPPATH\Views\guru\guru_view.php(200): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $item', 'C:\\xampp\\htdocs\\platform-belajar\\app\\Views\\guru\\guru_view.php', 200)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\platform-belajar\\app\\Views\\guru\\guru_view.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('guru/guru_view', [], true)
+ 5 APPPATH\Controllers\GuruController.php(15): view('guru/guru_view', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\GuruController->index()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\GuruController))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\platform-belajar\\public\\index.php')
+CRITICAL - 2024-12-21 07:27:46 --> ErrorException: Undefined variable $item
+[Method: GET, Route: guru]
+in APPPATH\Views\guru\guru_view.php on line 200.
+ 1 APPPATH\Views\guru\guru_view.php(200): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $item', 'C:\\xampp\\htdocs\\platform-belajar\\app\\Views\\guru\\guru_view.php', 200)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\platform-belajar\\app\\Views\\guru\\guru_view.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('guru/guru_view', [], true)
+ 5 APPPATH\Controllers\GuruController.php(15): view('guru/guru_view', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\GuruController->index()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\GuruController))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\platform-belajar\\public\\index.php')
+CRITICAL - 2024-12-21 07:27:50 --> ErrorException: Undefined variable $item
+[Method: GET, Route: guru]
+in APPPATH\Views\guru\guru_view.php on line 200.
+ 1 APPPATH\Views\guru\guru_view.php(200): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $item', 'C:\\xampp\\htdocs\\platform-belajar\\app\\Views\\guru\\guru_view.php', 200)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\platform-belajar\\app\\Views\\guru\\guru_view.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('guru/guru_view', [], true)
+ 5 APPPATH\Controllers\GuruController.php(15): view('guru/guru_view', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\GuruController->index()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\GuruController))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\platform-belajar\\public\\index.php')
+CRITICAL - 2024-12-21 07:34:38 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "siswa/edit_siswa_view.php"
+[Method: GET, Route: siswa/edit/1]
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 41.
+ 1 SYSTEMPATH\View\View.php(222): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('siswa/edit_siswa_view.php')
+ 2 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('siswa/edit_siswa_view', [], true)
+ 3 APPPATH\Controllers\SiswaController.php(50): view('siswa/edit_siswa_view', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\SiswaController->edit('1')
+ 5 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\SiswaController))
+ 6 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+10 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\platform-belajar\\public\\index.php')
+INFO - 2024-12-21 07:56:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-21 08:16:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-21 08:16:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-21 08:16:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-21 08:16:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-21 08:16:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-21 08:19:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-21 08:19:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-21 08:19:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-21 08:19:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-21 08:19:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-21 08:19:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-21 08:19:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-21 08:19:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-21 08:19:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-12-21 08:20:19 --> ErrorException: Undefined variable $getGuru
+[Method: GET, Route: materi/edit/10]
+in APPPATH\Views\materi\edit_materi_view.php on line 55.
+ 1 APPPATH\Views\materi\edit_materi_view.php(55): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $getGuru', 'C:\\xampp\\htdocs\\platform-belajar\\app\\Views\\materi\\edit_materi_view.php', 55)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\platform-belajar\\app\\Views\\materi\\edit_materi_view.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('materi/edit_materi_view', [], true)
+ 5 APPPATH\Controllers\MateriController.php(109): view('materi/edit_materi_view', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\MateriController->edit('10')
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MateriController))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\platform-belajar\\public\\index.php')
+CRITICAL - 2024-12-21 08:21:06 --> ErrorException: Undefined variable $getMateri
+[Method: GET, Route: materi/edit/10]
+in APPPATH\Views\materi\edit_materi_view.php on line 55.
+ 1 APPPATH\Views\materi\edit_materi_view.php(55): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $getMateri', 'C:\\xampp\\htdocs\\platform-belajar\\app\\Views\\materi\\edit_materi_view.php', 55)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\platform-belajar\\app\\Views\\materi\\edit_materi_view.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('materi/edit_materi_view', [], true)
+ 5 APPPATH\Controllers\MateriController.php(109): view('materi/edit_materi_view', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\MateriController->edit('10')
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MateriController))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\platform-belajar\\public\\index.php')
+CRITICAL - 2024-12-21 08:21:08 --> ErrorException: Undefined variable $getMateri
+[Method: GET, Route: materi/edit/10]
+in APPPATH\Views\materi\edit_materi_view.php on line 55.
+ 1 APPPATH\Views\materi\edit_materi_view.php(55): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $getMateri', 'C:\\xampp\\htdocs\\platform-belajar\\app\\Views\\materi\\edit_materi_view.php', 55)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\platform-belajar\\app\\Views\\materi\\edit_materi_view.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('materi/edit_materi_view', [], true)
+ 5 APPPATH\Controllers\MateriController.php(109): view('materi/edit_materi_view', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\MateriController->edit('10')
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MateriController))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\platform-belajar\\public\\index.php')
+CRITICAL - 2024-12-21 08:21:09 --> ErrorException: Undefined variable $getMateri
+[Method: GET, Route: materi/edit/10]
+in APPPATH\Views\materi\edit_materi_view.php on line 55.
+ 1 APPPATH\Views\materi\edit_materi_view.php(55): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $getMateri', 'C:\\xampp\\htdocs\\platform-belajar\\app\\Views\\materi\\edit_materi_view.php', 55)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\platform-belajar\\app\\Views\\materi\\edit_materi_view.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('materi/edit_materi_view', [], true)
+ 5 APPPATH\Controllers\MateriController.php(109): view('materi/edit_materi_view', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\MateriController->edit('10')
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MateriController))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\platform-belajar\\public\\index.php')
+CRITICAL - 2024-12-21 08:21:10 --> ErrorException: Undefined variable $getMateri
+[Method: GET, Route: materi/edit/10]
+in APPPATH\Views\materi\edit_materi_view.php on line 55.
+ 1 APPPATH\Views\materi\edit_materi_view.php(55): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $getMateri', 'C:\\xampp\\htdocs\\platform-belajar\\app\\Views\\materi\\edit_materi_view.php', 55)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\platform-belajar\\app\\Views\\materi\\edit_materi_view.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('materi/edit_materi_view', [], true)
+ 5 APPPATH\Controllers\MateriController.php(109): view('materi/edit_materi_view', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\MateriController->edit('10')
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MateriController))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\platform-belajar\\public\\index.php')
+CRITICAL - 2024-12-21 08:21:10 --> ErrorException: Undefined variable $getMateri
+[Method: GET, Route: materi/edit/10]
+in APPPATH\Views\materi\edit_materi_view.php on line 55.
+ 1 APPPATH\Views\materi\edit_materi_view.php(55): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $getMateri', 'C:\\xampp\\htdocs\\platform-belajar\\app\\Views\\materi\\edit_materi_view.php', 55)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\platform-belajar\\app\\Views\\materi\\edit_materi_view.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('materi/edit_materi_view', [], true)
+ 5 APPPATH\Controllers\MateriController.php(109): view('materi/edit_materi_view', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\MateriController->edit('10')
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MateriController))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\platform-belajar\\public\\index.php')
+CRITICAL - 2024-12-21 08:22:37 --> ErrorException: Undefined variable $getMateri
+[Method: GET, Route: materi/edit/10]
+in APPPATH\Views\materi\edit_materi_view.php on line 55.
+ 1 APPPATH\Views\materi\edit_materi_view.php(55): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $getMateri', 'C:\\xampp\\htdocs\\platform-belajar\\app\\Views\\materi\\edit_materi_view.php', 55)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\platform-belajar\\app\\Views\\materi\\edit_materi_view.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('materi/edit_materi_view', [], true)
+ 5 APPPATH\Controllers\MateriController.php(109): view('materi/edit_materi_view', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\MateriController->edit('10')
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MateriController))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\platform-belajar\\public\\index.php')
+CRITICAL - 2024-12-21 08:22:38 --> ErrorException: Undefined variable $getMateri
+[Method: GET, Route: materi/edit/10]
+in APPPATH\Views\materi\edit_materi_view.php on line 55.
+ 1 APPPATH\Views\materi\edit_materi_view.php(55): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $getMateri', 'C:\\xampp\\htdocs\\platform-belajar\\app\\Views\\materi\\edit_materi_view.php', 55)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\platform-belajar\\app\\Views\\materi\\edit_materi_view.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('materi/edit_materi_view', [], true)
+ 5 APPPATH\Controllers\MateriController.php(109): view('materi/edit_materi_view', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\MateriController->edit('10')
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MateriController))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\platform-belajar\\public\\index.php')
+CRITICAL - 2024-12-21 08:22:39 --> ErrorException: Undefined variable $getMateri
+[Method: GET, Route: materi/edit/10]
+in APPPATH\Views\materi\edit_materi_view.php on line 55.
+ 1 APPPATH\Views\materi\edit_materi_view.php(55): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $getMateri', 'C:\\xampp\\htdocs\\platform-belajar\\app\\Views\\materi\\edit_materi_view.php', 55)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\platform-belajar\\app\\Views\\materi\\edit_materi_view.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('materi/edit_materi_view', [], true)
+ 5 APPPATH\Controllers\MateriController.php(109): view('materi/edit_materi_view', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\MateriController->edit('10')
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MateriController))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\platform-belajar\\public\\index.php')
+CRITICAL - 2024-12-21 08:22:39 --> ErrorException: Undefined variable $getMateri
+[Method: GET, Route: materi/edit/10]
+in APPPATH\Views\materi\edit_materi_view.php on line 55.
+ 1 APPPATH\Views\materi\edit_materi_view.php(55): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $getMateri', 'C:\\xampp\\htdocs\\platform-belajar\\app\\Views\\materi\\edit_materi_view.php', 55)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\platform-belajar\\app\\Views\\materi\\edit_materi_view.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('materi/edit_materi_view', [], true)
+ 5 APPPATH\Controllers\MateriController.php(109): view('materi/edit_materi_view', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\MateriController->edit('10')
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MateriController))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\platform-belajar\\public\\index.php')
+CRITICAL - 2024-12-21 08:23:34 --> ErrorException: Attempt to read property "mapel" on array
+[Method: GET, Route: materi/edit/10]
+in APPPATH\Views\materi\edit_materi_view.php on line 55.
+ 1 APPPATH\Views\materi\edit_materi_view.php(55): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "mapel" on array', 'C:\\xampp\\htdocs\\platform-belajar\\app\\Views\\materi\\edit_materi_view.php', 55)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\platform-belajar\\app\\Views\\materi\\edit_materi_view.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('materi/edit_materi_view', [], true)
+ 5 APPPATH\Controllers\MateriController.php(109): view('materi/edit_materi_view', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\MateriController->edit('10')
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MateriController))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\platform-belajar\\public\\index.php')
+CRITICAL - 2024-12-21 08:23:35 --> ErrorException: Attempt to read property "mapel" on array
+[Method: GET, Route: materi/edit/10]
+in APPPATH\Views\materi\edit_materi_view.php on line 55.
+ 1 APPPATH\Views\materi\edit_materi_view.php(55): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "mapel" on array', 'C:\\xampp\\htdocs\\platform-belajar\\app\\Views\\materi\\edit_materi_view.php', 55)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\platform-belajar\\app\\Views\\materi\\edit_materi_view.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('materi/edit_materi_view', [], true)
+ 5 APPPATH\Controllers\MateriController.php(109): view('materi/edit_materi_view', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\MateriController->edit('10')
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MateriController))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\platform-belajar\\public\\index.php')
+CRITICAL - 2024-12-21 08:23:37 --> ErrorException: Attempt to read property "mapel" on array
+[Method: GET, Route: materi/edit/10]
+in APPPATH\Views\materi\edit_materi_view.php on line 55.
+ 1 APPPATH\Views\materi\edit_materi_view.php(55): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "mapel" on array', 'C:\\xampp\\htdocs\\platform-belajar\\app\\Views\\materi\\edit_materi_view.php', 55)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\platform-belajar\\app\\Views\\materi\\edit_materi_view.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('materi/edit_materi_view', [], true)
+ 5 APPPATH\Controllers\MateriController.php(109): view('materi/edit_materi_view', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\MateriController->edit('10')
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MateriController))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\platform-belajar\\public\\index.php')
+INFO - 2024-12-21 08:24:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-21 08:24:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-21 08:24:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-21 08:24:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-21 08:27:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-12-21 08:27:12 --> ErrorException: Undefined array key "guru"
+[Method: GET, Route: materi/edit/10]
+in APPPATH\Views\materi\edit_materi_view.php on line 37.
+ 1 APPPATH\Views\materi\edit_materi_view.php(37): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "guru"', 'C:\\xampp\\htdocs\\platform-belajar\\app\\Views\\materi\\edit_materi_view.php', 37)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\platform-belajar\\app\\Views\\materi\\edit_materi_view.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('materi/edit_materi_view', [], true)
+ 5 APPPATH\Controllers\MateriController.php(109): view('materi/edit_materi_view', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\MateriController->edit('10')
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MateriController))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\platform-belajar\\public\\index.php')
+INFO - 2024-12-21 08:27:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-21 08:27:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-21 08:27:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-21 08:27:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-21 08:27:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-21 08:27:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-21 08:27:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-21 08:27:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-21 08:27:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-21 08:28:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-21 08:28:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-21 08:28:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-21 08:28:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-21 08:28:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-21 08:29:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-21 08:29:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-21 08:29:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-21 08:29:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-21 08:31:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-21 08:31:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-21 08:31:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-21 08:31:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-12-21 08:31:23 --> ArgumentCountError: Too few arguments to function App\Controllers\MateriController::update(), 0 passed in C:\xampp\htdocs\platform-belajar\vendor\codeigniter4\framework\system\CodeIgniter.php on line 933 and exactly 1 expected
+[Method: POST, Route: materi/update]
+in APPPATH\Controllers\MateriController.php on line 118.
+ 1 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\MateriController->update()
+ 2 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MateriController))
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 7 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\platform-belajar\\public\\index.php')
+CRITICAL - 2024-12-21 08:33:07 --> ArgumentCountError: Too few arguments to function App\Controllers\MateriController::update(), 0 passed in C:\xampp\htdocs\platform-belajar\vendor\codeigniter4\framework\system\CodeIgniter.php on line 933 and exactly 1 expected
+[Method: POST, Route: materi/update]
+in APPPATH\Controllers\MateriController.php on line 118.
+ 1 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\MateriController->update()
+ 2 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MateriController))
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 7 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\platform-belajar\\public\\index.php')
+CRITICAL - 2024-12-21 08:33:09 --> ArgumentCountError: Too few arguments to function App\Controllers\MateriController::update(), 0 passed in C:\xampp\htdocs\platform-belajar\vendor\codeigniter4\framework\system\CodeIgniter.php on line 933 and exactly 1 expected
+[Method: POST, Route: materi/update]
+in APPPATH\Controllers\MateriController.php on line 118.
+ 1 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\MateriController->update()
+ 2 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MateriController))
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 7 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\platform-belajar\\public\\index.php')
+CRITICAL - 2024-12-21 08:33:10 --> ArgumentCountError: Too few arguments to function App\Controllers\MateriController::update(), 0 passed in C:\xampp\htdocs\platform-belajar\vendor\codeigniter4\framework\system\CodeIgniter.php on line 933 and exactly 1 expected
+[Method: POST, Route: materi/update]
+in APPPATH\Controllers\MateriController.php on line 118.
+ 1 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\MateriController->update()
+ 2 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MateriController))
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 7 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\platform-belajar\\public\\index.php')
+CRITICAL - 2024-12-21 08:33:12 --> ArgumentCountError: Too few arguments to function App\Controllers\MateriController::update(), 0 passed in C:\xampp\htdocs\platform-belajar\vendor\codeigniter4\framework\system\CodeIgniter.php on line 933 and exactly 1 expected
+[Method: POST, Route: materi/update]
+in APPPATH\Controllers\MateriController.php on line 118.
+ 1 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\MateriController->update()
+ 2 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MateriController))
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 7 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\platform-belajar\\public\\index.php')
+CRITICAL - 2024-12-21 08:33:14 --> ArgumentCountError: Too few arguments to function App\Controllers\MateriController::update(), 0 passed in C:\xampp\htdocs\platform-belajar\vendor\codeigniter4\framework\system\CodeIgniter.php on line 933 and exactly 1 expected
+[Method: POST, Route: materi/update]
+in APPPATH\Controllers\MateriController.php on line 118.
+ 1 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\MateriController->update()
+ 2 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MateriController))
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 7 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\platform-belajar\\public\\index.php')
+INFO - 2024-12-21 08:33:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-21 08:33:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-21 08:33:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-21 08:33:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-21 08:34:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-21 08:34:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-21 08:34:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-21 08:34:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-21 08:34:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-21 08:34:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-21 08:34:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-21 08:34:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-21 08:36:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-21 08:36:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-21 08:36:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-21 08:36:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-21 08:38:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-21 08:38:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-21 08:38:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-21 08:38:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-21 08:38:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-21 08:40:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-21 08:40:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-21 08:40:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-21 08:44:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-21 08:44:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-21 08:44:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-21 08:44:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-21 08:50:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-21 08:50:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-21 08:50:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-21 08:50:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-21 08:53:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-21 08:53:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-21 08:53:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-21 08:53:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-21 08:54:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-21 08:54:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-21 08:54:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-21 08:54:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-21 08:54:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-21 08:54:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-21 08:54:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-21 08:54:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-21 08:54:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-21 08:54:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-21 08:55:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-21 08:55:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-21 08:55:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-21 08:55:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-21 08:55:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-21 08:55:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-21 11:48:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-21 11:48:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-21 11:48:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-21 11:54:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-21 11:54:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-21 11:54:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-21 11:54:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-21 11:55:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-21 11:55:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-21 11:55:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-21 11:55:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-21 11:55:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-21 11:56:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-21 11:56:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-21 11:56:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-21 11:56:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-21 11:56:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-21 11:56:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-21 11:56:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-21 11:56:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-21 11:56:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-21 11:56:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-21 11:56:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-21 11:57:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-21 11:57:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-21 11:57:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.

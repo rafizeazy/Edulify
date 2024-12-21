@@ -48,3 +48,11 @@ $routes->post('materi/save', 'MateriController::save');
 $routes->post('materi/add', 'MateriController::add');
 $routes->post('materi/update', 'MateriController::update');
 $routes->get('materi/hapus/(:any)', 'MateriController::hapus/$1');
+
+// routes siswa
+$routes->get('siswa', 'SiswaController::index');
+$routes->get('siswa/tambah', 'SiswaController::tambah');
+$routes->get('siswa/edit/(:any)', 'SiswaController::edit/$1');
+$routes->post('siswa/add', 'SiswaController::add');
+$routes->post('siswa/update', 'SiswaController::update');
+$routes->get('siswa/hapus/(:any)', 'SiswaController::hapus/$1');

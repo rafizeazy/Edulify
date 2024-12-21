@@ -60,7 +60,7 @@
                             <ul class="submenu ">
 
                                 <li class="submenu-item  ">
-                                    <a href="component-accordion.html" class="submenu-link">Data Siswa</a>
+                                    <a href="<?= base_url('siswa'); ?>" class="submenu-link">Data Siswa</a>
 
                                 </li>
 
@@ -197,10 +197,23 @@
                                                 <a href="<?= base_url('guru/edit/' . $isi['nip']); ?>"
                                                     class="btn btn-success">
                                                     Edit</a>
-                                                <a href="<?= base_url('guru/hapus/' . $isi['nip']); ?>"
-                                                    onclick="javascript:return confirm('Apakah ingin menghapus data barang ?')"
-                                                    class="btn btn-danger">
-                                                    Hapus</a>
+                                                <button class="btn btn-danger" onclick="hapusGuru('<?= $isi['nip']; ?>')">Hapus</button>
+                                                <script>
+                                                    function hapusGuru(nip) {
+                                                        Swal.fire({
+                                                            title: 'Apakah ingin menghapus data guru?',
+                                                            icon: 'warning',
+                                                            showCancelButton: true,
+                                                            confirmButtonColor: '#3085d6',
+                                                            cancelButtonColor: '#d33',
+                                                            confirmButtonText: 'Ya, hapus!'
+                                                        }).then((result) => {
+                                                            if (result.isConfirmed) {
+                                                                window.location.href = '<?= base_url('guru/hapus/'); ?>' + nip;
+                                                            }
+                                                        })
+                                                    }
+                                                </script>
 
                                             </td>
                                         </tr>
@@ -226,6 +239,7 @@
             </footer>
         </div>
     </div>
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
     <script src="assets/static/js/components/dark.js"></script>
     <script src="assets/extensions/perfect-scrollbar/perfect-scrollbar.min.js"></script>
     <script src="assets/compiled/js/app.js"></script>

@@ -35,7 +35,7 @@ class GuruController extends BaseController
         );
         $model->saveGuru($data);
         echo '<script>
-                alert("Sukses Tambah Data Barang");
+                alert("Sukses Tambah Data Guru");
                 window.location="' . base_url('/guru') . '"
             </script>';
     }

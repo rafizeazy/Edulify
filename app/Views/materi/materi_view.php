@@ -88,9 +88,9 @@
                         </div>
                         <nav aria-label="breadcrumb" class="breadcrumb-header float-start float-lg-end">
                             <ol class="breadcrumb">
-                                <li class="breadcrumb-item"><a href="<?= base_url('dashboard'); ?>">Dashboard</a></li>
+                                <li class="breadcrumb-item"><a href="<?= base_url('/user/home_user'); ?>">Home</a></li>
                                 <li class="breadcrumb-item active" aria-current="page">Materi Pembelajaran</li>
-                                <li class="breadcrumb-item active" aria-current="page"><a href="<?= base_url('materi/tambah'); ?>">Tambah Materi Baru</a></li>
+
 
                             </ol>
                         </nav>
@@ -113,6 +113,25 @@
                                 <h5 class="card-title"><?= $item['mapel']; ?> - <?= $item['kelas']; ?></h5>
                                 <p class="card-text"><?= $item['deskripsi']; ?></p>
                                 <p><strong>Pengajar:</strong> <?= $item['nama_lengkap']; ?></p>
+
+                                <!-- <a href="#" class="btn btn-danger" onclick="confirmDelete('<?= base_url('materi/hapus/' . $item['id']); ?>')">Hapus</a>
+                                <script>
+                                    function confirmDelete(url) {
+                                        Swal.fire({
+                                            title: 'Apakah Anda yakin?',
+                                            text: "Anda tidak akan dapat mengembalikan ini!",
+                                            icon: 'warning',
+                                            showCancelButton: true,
+                                            confirmButtonColor: '#3085d6',
+                                            cancelButtonColor: '#d33',
+                                            confirmButtonText: 'Ya, hapus!'
+                                        }).then((result) => {
+                                            if (result.isConfirmed) {
+                                                window.location.href = url;
+                                            }
+                                        })
+                                    }
+                                </script> -->
                             </div>
                         </div>
                     </div>
@@ -124,7 +143,7 @@
         </div>
     </div>
 
-
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
     <script src="assets/static/js/components/dark.js"></script>
     <script src="assets/extensions/perfect-scrollbar/perfect-scrollbar.min.js"></script>
     <script src="assets/compiled/js/app.js"></script>

@@ -96,7 +96,7 @@
                 <div class="row">
                     <div class="col-sm-4 mb-2 d-flex justify-content-center " data-aos-duration="1900"
                         data-aos="fade-right">
-                        <a href="#">
+                        <a href="/materi">
                             <div class="card-kelas text-center">
                                 <img src="/assets/img/kelas10.png" style="object-fit: cover;"
                                     class="card-img-top img-fluid" alt="...">
@@ -105,7 +105,7 @@
                     </div>
                     <div class="col-sm-4 mb-2 d-flex justify-content-center " data-aos-duration="1900"
                         data-aos="fade-down">
-                        <a href="#">
+                        <a href="/materi">
                             <div class="card-kelas">
                                 <img src="/assets/img/kelas11.png" class="card-img-top" alt="...">
                             </div>
@@ -113,7 +113,7 @@
                     </div>
                     <div class="col-sm-4 mb-2 d-flex justify-content-center" data-aos-duration="1900"
                         data-aos="fade-left">
-                        <a href="#">
+                        <a href="/materi">
                             <div class="card-kelas">
                                 <img src="/assets/img/kelas12.png" class="card-img-top" alt="...">
                             </div>
@@ -148,7 +148,7 @@
                             <li><a href="#">Tentang Edulify</a></li>
                             <li><a href="#">Materi Edulify</a></li>
                             <li><a href="#">Kontak Edulify</a></li>
-                            <li><a href="#">Website Resmi Sekolah</a></li>
+
                         </ul>
                     </div>
                 </div>
@@ -222,21 +222,21 @@
                 <div class="modal-header">
                     <h2 class="modal-title text-dark font-weight-bold" style="color:#212529 !important;"
                         id="exampleModalCenterTitle">
-                        Learnify - Masuk Sekarang</h2>
+                        Edulify - Masuk Sekarang</h2>
                     <button type="button" class="close" data-dismiss="modal" aria-label="Close">
                         <span aria-hidden="true">&times;</span>
                     </button>
                 </div>
-                <div class="modal-body">
+                <div class="modal-body">S
                     <div class="container-fluid">
                         <br>
                         <div class="row">
                             <div class="col-md-6 text-center">
-                                <img src="https://programmer.smkn1ciamis.id/learnify/assets/img/modal-login-2.png"
+                                <img src="#"
                                     class="img-fluid img-responsive mx-auto " style="height: 350px;">
                             </div>
                             <div class=" col-md-6">
-                                <form action="https://programmer.smkn1ciamis.id/learnify/welcome/validateLogin" method="post">
+                                <form action="#" method="post">
                                     <div class="form-group">
                                         <label class="label-font" for="
                                         exampleFormControlInput1">
@@ -264,7 +264,7 @@
                                         menyetujui
                                         <i>privasi dan persyaratan ketentuan
                                             hukum kami </i> .
-                                        belum punya akun? daftar <a href=" https://programmer.smkn1ciamis.id/learnify/user/registration">
+                                        belum punya akun? daftar <a href="#">
                                             disini.</a>
                                     </p>
                                     <button class="btn btn-block font-weight-bold"

@@ -4,7 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Dashboard - KlikBelajar Admin Dashboard</title>
+    <title>Dashboard - Edulify Admin Dashboard</title>
     <link rel="icon" href="/assets/img/favicon.png" type="image/png">
 
 
@@ -28,7 +28,7 @@
                                 style="font-size: 35px;font-weight:900;font-family: 'Poppins', sans-serif;"
                                 class=""><i style="font-size: 30px;"
                                     class="fas fa"></i> |
-                                Learnify</a>
+                                Edulify</a>
                         </div>
 
                         <div class="sidebar-toggler  x">
@@ -60,8 +60,7 @@
                             <ul class="submenu ">
 
                                 <li class="submenu-item  ">
-                                    <a href="component-accordion.html" class="submenu-link">Data Siswa</a>
-
+                                    <a href="<?= base_url('siswa'); ?>" class="submenu-link">Data Siswa</a>
                                 </li>
 
                             </ul>

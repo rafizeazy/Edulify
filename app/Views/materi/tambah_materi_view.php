@@ -33,6 +33,7 @@
 
             <form action="<?= base_url('materi/save'); ?>" method="post" enctype="multipart/form-data">
                 <div class="mb-3">
+
                     <label for="guru" class="form-label">Pengajar</label>
                     <select name="guru" id="guru" class="form-select" required>
                         <option value="" disabled selected>Pilih Pengajar</option>
@@ -69,11 +70,17 @@
                     <label for="video" class="form-label">Upload Video</label>
                     <input type="file" name="video" id="video" class="form-control" accept="video/*" required>
                 </div>
-                <button type="submit" class="btn btn-primary">Tambah Materi</button>
+                <div class="col-md-4 col-12">
+                    <button id="toast-success" class="btn btn-outline-primary btn-lg btn-block">Tambah Data</button>
+                </div>
             </form>
         </div>
 
         <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+        <link rel="stylesheet" href="assets/scss/pages/sweetalert2.scss">
+        <link rel="stylesheet" href="assets/extensions/sweetalert2/sweetalert2.min.css">
+        <script src="assets/extensions/sweetalert2/sweetalert2.min.js"></script>>
+        <script src="assets/static/js/pages/sweetalert2.js"></script>>
 </body>
 
 </html>
